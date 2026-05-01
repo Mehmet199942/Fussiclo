@@ -134,7 +134,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
                     },
                 },
             ],
-            automatic_tax: { enabled: true },
+            automatic_tax: { enabled: false },
             allow_promotion_codes: true,
         });
 
