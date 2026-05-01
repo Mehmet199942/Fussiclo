@@ -279,6 +279,7 @@ body.dark-mode::-webkit-scrollbar-thumb {
 }
 
 .logo-mobile img {
+    position: relative !important;
     height: 25px !important;
     width: auto !important;
     display: block !important;
@@ -363,6 +364,7 @@ body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover 
 
     /* Logo invert for dark theme if needed */
     .logo-mobile img {
+        position: relative !important;
         height: 25px !important;
         width: auto !important;
         background-color: transparent !important;
