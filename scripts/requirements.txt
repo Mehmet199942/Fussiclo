@@ -1,0 +1,4 @@
+# WORLD CUP SHOP – Generator Abhängigkeiten
+# Installieren mit: pip install -r scripts/requirements.txt
+
+requests>=2.28.0

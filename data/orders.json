@@ -1,0 +1,16 @@
+[
+    {
+        "id": "ORD-12345",
+        "date": "2024-03-14T18:30:00Z",
+        "customer": {
+            "name": "Max Mustermann",
+            "email": "max@example.com",
+            "address": "Heidestraße 17, 10557 Berlin"
+        },
+        "items": [
+            { "id": "krd 1", "name": "Kurdistan Retro", "size": "M", "price": 24.90, "qty": 1 }
+        ],
+        "total": 24.90,
+        "status": "Neu"
+    }
+]

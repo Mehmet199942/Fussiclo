@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shoping Cart</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Footer -->
+	<footer class="footer-minimal">
+		<div class="container">
+
+			<!-- Social Icons -->
+			<div class="social-links-minimal">
+				<a href="#" class="fs-22 cl0 hov-cl1 trans-04">
+					<i class="fa fa-instagram"></i>
+				</a>
+				<a href="#" class="fs-22 cl0 hov-cl1 trans-04">
+					<i class="fa fa-music"></i>
+				</a>
+				<a href="#" class="fs-22 cl0 hov-cl1 trans-04">
+					<i class="fa fa-whatsapp"></i>
+				</a>
+			</div>
+
+			<!-- Footer Bottom Bar -->
+			<div class="footer-bottom-minimal" style="border-top: 1px solid #222; padding-top: 30px;">
+				<div class="footer-left-minimal">
+					© FUSSI
+				</div>
+
+				<div class="footer-links-minimal">
+					<a href="support.html">Support</a>
+					<a href="versand.html">Versandkonditionen</a>
+					<a href="agb.html">AGB</a>
+					<a href="impressum.html">Impressum</a>
+					<a href="datenschutz.html">Datenschutzerklärung</a>
+					<a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
+					<a href="jobs.html">Jobs</a>
+				</div>
+
+				<div class="footer-right-minimal">
+					<span><i class="zmdi zmdi-globe-alt"></i> Deutsch</span>
+					<span>€ Eur</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->
+
+
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="zmdi zmdi-chevron-up"></i>
+		</span>
+	</div>
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+	<script>
+		$('.js-pscroll').each(function(){
+			$(this).css('position','relative');
+			$(this).css('overflow','hidden');
+			var ps = new PerfectScrollbar(this, {
+				wheelSpeed: 1,
+				scrollingThreshold: 1000,
+				wheelPropagation: false,
+			});
+
+			$(window).on('resize', function(){
+				ps.update();
+			})
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
+

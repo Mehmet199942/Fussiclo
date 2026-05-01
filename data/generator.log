@@ -1,0 +1,157 @@
+2026-03-14 15:09:28 [INFO] ============================================================
+2026-03-14 15:09:28 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:09:28 [INFO] ============================================================
+2026-03-14 15:09:28 [INFO] Lade Produktdaten aus Datei: data/products-example.csv
+2026-03-14 15:09:28 [INFO] 6 Zeilen aus CSV geladen
+2026-03-14 15:09:28 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'price'
+2026-03-14 15:09:28 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:09:28 [INFO] Produkte: 5 aktiv, 0 draft, 1 übersprungen
+2026-03-14 15:09:28 [INFO] [DRY-RUN] Würde schreiben: product-efrin-shirt.html  (31,839 Zeichen)
+2026-03-14 15:09:28 [INFO] [DRY-RUN] Würde schreiben: product-krd-flag-shirt.html  (31,841 Zeichen)
+2026-03-14 15:09:28 [INFO] [DRY-RUN] Würde schreiben: product-krd-map-shirt.html  (31,741 Zeichen)
+2026-03-14 15:09:28 [INFO] [DRY-RUN] Würde schreiben: product-krd-number10.html  (31,862 Zeichen)
+2026-03-14 15:09:28 [INFO] [DRY-RUN] Würde schreiben: product-krd-text-shirt.html  (31,689 Zeichen)
+2026-03-14 15:09:28 [INFO] Listing: 5 sichtbare Produkte
+2026-03-14 15:09:28 [INFO] [DRY-RUN] product.html würde aktualisiert (5 Karten)
+2026-03-14 15:09:28 [INFO] ────────────────────────────────────────────────────────────
+2026-03-14 15:09:28 [INFO] Generiert: 5  |  Fehler: 0  |  Übersprungen: 1
+2026-03-14 15:09:28 [INFO] DRY-RUN: Keine Datei wurde tatsächlich geschrieben.
+2026-03-14 15:09:28 [INFO] Fertig!
+2026-03-14 15:09:32 [INFO] Lade Produktdaten aus Datei: data/products-example.csv
+2026-03-14 15:09:32 [INFO] 6 Zeilen aus CSV geladen
+2026-03-14 15:09:32 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'price'
+2026-03-14 15:09:32 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:09:32 [INFO] Produkte: 5 aktiv, 0 draft, 1 übersprungen
+2026-03-14 15:09:32 [INFO] Erstellt: product-efrin-shirt.html
+2026-03-14 15:09:32 [INFO] Erstellt: product-krd-flag-shirt.html
+2026-03-14 15:09:32 [INFO] Erstellt: product-krd-map-shirt.html
+2026-03-14 15:09:32 [INFO] Erstellt: product-krd-number10.html
+2026-03-14 15:09:32 [INFO] Erstellt: product-krd-text-shirt.html
+2026-03-14 15:09:32 [INFO] Listing: 5 sichtbare Produkte
+2026-03-14 15:09:32 [INFO] product.html aktualisiert mit 5 Produktkarten
+2026-03-14 15:09:32 [INFO] ────────────────────────────────────────────────────────────
+2026-03-14 15:09:32 [INFO] Generiert: 5  |  Fehler: 0  |  Übersprungen: 1
+2026-03-14 15:09:32 [INFO] Fertig!
+2026-03-14 15:48:44 [INFO] ============================================================
+2026-03-14 15:48:44 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:48:44 [INFO] ============================================================
+2026-03-14 15:48:44 [INFO] Lade Produktdaten von: https://docs.google.com/spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv
+2026-03-14 15:48:44 [ERROR] Netzwerkfehler beim Laden der Sheets-Daten: HTTPSConnectionPool(host='docs.google.com', port=443): Max retries exceeded with url: /spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
+2026-03-14 15:50:07 [INFO] ============================================================
+2026-03-14 15:50:07 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:50:07 [INFO] ============================================================
+2026-03-14 15:50:07 [ERROR] 'requests' Bibliothek fehlt. Bitte installieren: pip install requests
+2026-03-14 15:51:59 [INFO] ============================================================
+2026-03-14 15:51:59 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:51:59 [INFO] ============================================================
+2026-03-14 15:51:59 [INFO] Lade Produktdaten von: https://docs.google.com/spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv
+2026-03-14 15:52:01 [INFO] 8 Zeilen aus CSV geladen
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 2 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 3 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 4 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 5 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 6 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 7 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 8 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'name'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'slug'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'price'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'sku'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'status'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:52:01 [WARNING] Zeile 9 (?): Pflichtfeld fehlt: 'short_desc'
+2026-03-14 15:52:01 [INFO] Produkte: 0 aktiv, 0 draft, 8 übersprungen
+2026-03-14 15:52:01 [WARNING] Keine aktiven Produkte. Nichts zu tun.
+2026-03-14 15:53:32 [INFO] ============================================================
+2026-03-14 15:53:32 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:53:32 [INFO] ============================================================
+2026-03-14 15:53:32 [INFO] Lade Produktdaten aus Datei: data/products-example.csv
+2026-03-14 15:53:32 [INFO] 6 Produktzeilen aus CSV geladen
+2026-03-14 15:53:32 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'price'
+2026-03-14 15:53:32 [WARNING] Zeile 7 (Neues Produkt (Entwurf)): Pflichtfeld fehlt: 'image1'
+2026-03-14 15:53:32 [INFO] Produkte: 5 aktiv, 0 draft, 1 übersprungen
+2026-03-14 15:53:32 [INFO] [DRY-RUN] Würde schreiben: product-efrin-shirt.html  (31,839 Zeichen)
+2026-03-14 15:53:32 [INFO] [DRY-RUN] Würde schreiben: product-krd-flag-shirt.html  (31,841 Zeichen)
+2026-03-14 15:53:32 [INFO] [DRY-RUN] Würde schreiben: product-krd-map-shirt.html  (31,741 Zeichen)
+2026-03-14 15:53:32 [INFO] [DRY-RUN] Würde schreiben: product-krd-number10.html  (31,862 Zeichen)
+2026-03-14 15:53:32 [INFO] [DRY-RUN] Würde schreiben: product-krd-text-shirt.html  (31,689 Zeichen)
+2026-03-14 15:53:32 [INFO] Listing: 5 sichtbare Produkte
+2026-03-14 15:53:32 [INFO] [DRY-RUN] product.html würde aktualisiert (5 Karten)
+2026-03-14 15:53:32 [INFO] ────────────────────────────────────────────────────────────
+2026-03-14 15:53:32 [INFO] Generiert: 5  |  Fehler: 0  |  Übersprungen: 1
+2026-03-14 15:53:32 [INFO] DRY-RUN: Keine Datei wurde tatsächlich geschrieben.
+2026-03-14 15:53:32 [INFO] Fertig!
+2026-03-14 15:54:05 [INFO] ============================================================
+2026-03-14 15:54:05 [INFO] DRY-RUN MODUS – Es werden keine Dateien geschrieben
+2026-03-14 15:54:05 [INFO] ============================================================
+2026-03-14 15:54:05 [INFO] Lade Produktdaten von: https://docs.google.com/spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv
+2026-03-14 15:54:07 [INFO] 6 Produktzeilen aus CSV geladen
+2026-03-14 15:54:07 [INFO] Produkte: 6 aktiv, 0 draft, 0 übersprungen
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-efrin-shirt.html  (32,449 Zeichen)
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-krd-flag-shirt.html  (32,324 Zeichen)
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-krd-map-shirt.html  (32,271 Zeichen)
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-krd-number10.html  (32,310 Zeichen)
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-krd-text-shirt.html  (32,268 Zeichen)
+2026-03-14 15:54:07 [INFO] [DRY-RUN] Würde schreiben: product-krd-text-shirt2.html  (32,172 Zeichen)
+2026-03-14 15:54:07 [INFO] Listing: 6 sichtbare Produkte
+2026-03-14 15:54:07 [INFO] [DRY-RUN] product.html würde aktualisiert (6 Karten)
+2026-03-14 15:54:07 [INFO] ────────────────────────────────────────────────────────────
+2026-03-14 15:54:07 [INFO] Generiert: 6  |  Fehler: 0  |  Übersprungen: 0
+2026-03-14 15:54:07 [INFO] DRY-RUN: Keine Datei wurde tatsächlich geschrieben.
+2026-03-14 15:54:07 [INFO] Fertig!
+2026-03-14 15:55:44 [INFO] Lade Produktdaten von: https://docs.google.com/spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv
+2026-03-14 15:55:45 [INFO] 6 Produktzeilen aus CSV geladen
+2026-03-14 15:55:45 [INFO] Produkte: 6 aktiv, 0 draft, 0 übersprungen
+2026-03-14 15:55:45 [INFO] Erstellt: product-efrin-shirt.html
+2026-03-14 15:55:45 [INFO] Erstellt: product-krd-flag-shirt.html
+2026-03-14 15:55:45 [INFO] Erstellt: product-krd-map-shirt.html
+2026-03-14 15:55:45 [INFO] Erstellt: product-krd-number10.html
+2026-03-14 15:55:45 [INFO] Erstellt: product-krd-text-shirt.html
+2026-03-14 15:55:45 [INFO] Erstellt: product-krd-text-shirt2.html
+2026-03-14 15:55:45 [INFO] Listing: 6 sichtbare Produkte
+2026-03-14 15:55:45 [INFO] product.html aktualisiert mit 6 Produktkarten
+2026-03-14 15:55:45 [INFO] ────────────────────────────────────────────────────────────
+2026-03-14 15:55:45 [INFO] Generiert: 6  |  Fehler: 0  |  Übersprungen: 0
+2026-03-14 15:55:45 [INFO] Fertig!

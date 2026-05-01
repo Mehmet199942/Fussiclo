@@ -1,0 +1,27 @@
+{
+  "_comment": "WORLD CUP SHOP – Generator-Konfiguration",
+
+  "sheets_csv_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQG43yuEZrXo80C-nRqNddxsqXdmRX4zBFSXgMqfsU-_Dr1Sr6h62pEMT7zFyF6PlHnzWiDmHTDo673/pub?gid=1831038537&single=true&output=csv",
+
+  "_sheets_csv_url_hinweis": [
+    "So erhältst du die CSV-URL aus Google Sheets:",
+    "1. Öffne dein Google Sheet",
+    "2. Klicke auf: Datei → Freigeben → Im Web veröffentlichen",
+    "3. Wähle das richtige Tabellenblatt",
+    "4. Wähle als Format: 'Durch Kommas getrennte Werte (.csv)'",
+    "5. Klicke auf 'Veröffentlichen' und kopiere die URL",
+    "6. Füge die URL oben bei 'sheets_csv_url' ein"
+  ],
+
+  "create_backups": true,
+
+  "_create_backups_hinweis": "true = vor jedem Überschreiben wird eine Sicherungskopie in data/backups/ erstellt",
+
+  "output_filename_pattern": "product-{slug}.html",
+
+  "_output_filename_pattern_hinweis": "Dateinamenmuster für generierte Produktseiten. {slug} wird durch den Produkt-Slug ersetzt.",
+
+  "listing_page": "product.html",
+
+  "_listing_page_hinweis": "Name der Übersichtsseite, in die das Produktgrid eingefügt wird"
+}

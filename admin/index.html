@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #000000;
+            --accent: #e50914;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+            --glass: rgba(255, 255, 255, 0.8);
+            --shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; }
+
+        .sidebar { width: 260px; height: 100vh; background: var(--primary); color: white; position: fixed; left: 0; top: 0; padding: 2rem; }
+        .sidebar-brand { font-size: 1.5rem; font-weight: 700; margin-bottom: 3rem; display: flex; align-items: center; gap: 10px; }
+        .sidebar-brand i { color: var(--accent); }
+        .nav-item { padding: 12px 15px; margin-bottom: 10px; border-radius: 8px; cursor: pointer; transition: 0.3s; display: flex; align-items: center; gap: 15px; color: #ccc; }
+        .nav-item:hover, .nav-item.active { background: rgba(255,255,255,0.1); color: white; }
+
+        .main-content { margin-left: 260px; padding: 2rem; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; }
+        .header h1 { font-size: 1.8rem; font-weight: 700; }
+
+        .btn { padding: 10px 20px; border-radius: 8px; border: none; font-weight: 600; cursor: pointer; transition: 0.3s; display: inline-flex; align-items: center; gap: 8px; }
+        .btn-primary { background: var(--primary); color: white; }
+        .btn-accent { background: var(--accent); color: white; }
+        .btn-outline { background: transparent; border: 1.5px solid #ddd; }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
+
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+        .stat-card { background: var(--card-bg); padding: 1.5rem; border-radius: 16px; box-shadow: var(--shadow); }
+        .stat-card .label { color: var(--text-light); font-size: 0.9rem; }
+        .stat-card .value { font-size: 1.5rem; font-weight: 700; margin-top: 5px; }
+
+        .product-list { background: var(--card-bg); border-radius: 16px; box-shadow: var(--shadow); padding: 1.5rem; overflow-x: auto; }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; min-width: 900px; }
+        th { text-align: left; padding: 12px; border-bottom: 2px solid #eee; color: var(--text-light); font-weight: 700; cursor: pointer; user-select: none; font-size: 0.8rem; text-transform: uppercase; }
+        th:hover { color: var(--accent); }
+        th i { margin-left: 8px; font-size: 0.8rem; opacity: 0.5; }
+        
+        .filter-row td { padding: 8px 12px; background: #fafafa; border-bottom: 2px solid #eee; }
+        .filter-input { width: 100%; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 0.85rem; font-family: inherit; transition: 0.2s; }
+        .filter-input:focus { border-color: var(--accent); outline: none; background: white; box-shadow: 0 0 0 3px rgba(229, 9, 20, 0.1); }
+        
+        .price-filter-group { display: flex; gap: 4px; }
+        .price-op { width: 45px; flex-shrink: 0; padding: 8px 2px; text-align: center; font-weight: 700; background: #eee; border: 1px solid #ddd; border-radius: 6px; cursor: pointer; }
+        th:hover { color: var(--accent); }
+        th i { margin-left: 8px; font-size: 0.8rem; opacity: 0.5; }
+        th.active i { opacity: 1; color: var(--accent); }
+        td { padding: 15px 12px; border-bottom: 1px solid #eee; vertical-align: middle; }
+        .thumb { width: 50px; height: 50px; border-radius: 8px; object-fit: cover; background: #eee; transition: transform 0.2s, box-shadow 0.2s; }
+        a:hover .thumb { transform: scale(1.05); box-shadow: 0 4px 12px rgba(0,0,0,0.1); cursor: pointer; }
+        .badge { padding: 4px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; }
+        .badge-active { background: #e8f5e9; color: #2e7d32; }
+        .badge-hidden { background: #ffebee; color: #c62828; }
+
+        .actions { display: flex; gap: 10px; }
+        .action-btn { width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; border-radius: 6px; cursor: pointer; transition: 0.2s; border: none; }
+        .edit-btn { background: #e3f2fd; color: #1976d2; }
+        .delete-btn { background: #ffebee; color: #c62828; }
+
+        /* Modal */
+        #productModal, #bulkModal { display: none; position: fixed; right: 0; top: 0; width: 500px; height: 100vh; background: white; z-index: 1000; box-shadow: -10px 0 30px rgba(0,0,0,0.1); padding: 2rem; overflow-y: auto; transition: 0.4s ease-out; transform: translateX(100%); }
+        #productModal.open, #bulkModal.open { display: block; transform: translateX(0); }
+        
+        #bulkModal { width: 90vw; max-width: 1200px; }
+        
+        .overlay { display: none; position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.3); z-index: 999; backdrop-filter: blur(4px); }
+        .overlay.open { display: block; }
+
+        .bulk-list { margin-top: 2rem; }
+        .bulk-item { display: grid; grid-template-columns: 80px 1.2fr 1.2fr 1fr 70px 140px 60px 100px 100px 80px 40px; gap: 8px; align-items: center; background: #f9f9f9; padding: 15px; border-radius: 12px; margin-bottom: 10px; border: 1px solid #eee; }
+        .bulk-header { display: grid; grid-template-columns: 80px 1.2fr 1.2fr 1fr 70px 140px 60px 100px 100px 80px 40px; gap: 8px; padding: 0 15px; margin-bottom: 10px; font-weight: 700; font-size: 0.7rem; color: #888; text-transform: uppercase; }
+        
+        .master-bar { background: #eee; padding: 20px; border-radius: 12px; margin-bottom: 2rem; display: flex; gap: 15px; align-items: flex-end; flex-wrap: wrap; }
+        .sync-btn { background: #ddd; border: none; padding: 5px; border-radius: 4px; cursor: pointer; color: var(--text); }
+        .sync-btn:hover { background: var(--accent); color: white; }
+
+        .form-group { margin-bottom: 1.5rem; }
+        label { display: block; font-weight: 600; margin-bottom: 5px; font-size: 0.9rem; }
+        input, select, textarea { width: 100%; padding: 12px; border: 1.5px solid #eee; border-radius: 8px; font-family: inherit; font-size: 0.95rem; }
+        input:focus { border-color: var(--accent); outline: none; }
+
+        .upload-area { border: 2px dashed #ddd; border-radius: 12px; padding: 2rem; text-align: center; cursor: pointer; transition: 0.3s; margin-top: 5px; }
+        .upload-area:hover { border-color: var(--accent); background: #fff8f8; }
+        .upload-area i { font-size: 1.5rem; margin-bottom: 10px; color: var(--text-light); }
+
+        .preview-img { width: 100%; border-radius: 12px; margin-top: 10px; display: none; }
+
+        /* Toast notifications */
+        .toast { position: fixed; bottom: 20px; right: 20px; background: #333; color: white; padding: 12px 24px; border-radius: 8px; z-index: 2000; display: none; animation: slideUp 0.3s; }
+        @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+        /* Multi-view support */
+        .view-section { display: none; }
+        .view-section.active { display: block; }
+        .sidebar { display: flex; flex-direction: column; }
+
+        /* Image Hover Preview */
+        .hover-preview {
+            position: fixed;
+            z-index: 3000;
+            width: 320px;
+            height: 320px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+            display: none;
+            pointer-events: none;
+            overflow: hidden;
+            border: 4px solid white;
+        }
+        .hover-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-brand"><i class="fas fa-shopping-bag"></i> SHOP ADMIN</div>
+        <div class="nav-item active" onclick="switchView('products', this)"><i class="fas fa-th-large"></i> Produkte</div>
+        <div class="nav-item" onclick="switchView('orders', this)"><i class="fas fa-shopping-cart"></i> Bestellungen</div>
+        <div class="nav-item" onclick="switchView('analytics', this)"><i class="fas fa-chart-line"></i> Analytics</div>
+        
+        <div style="margin-top:auto; padding-bottom:1rem;">
+            <button class="btn btn-accent w-full" style="width:100%" id="publishBtn" onclick="generateShop()">
+                <i class="fas fa-rocket"></i> SHOP LIVE STELLEN
+            </button>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <!-- PRODUCTS VIEW -->
+        <section id="view-products" class="view-section active">
+            <div class="header">
+                <div>
+                    <h1>Produkt Management</h1>
+                    <p style="color:var(--text-light)">Verwalte deine T-Shirts und Accessoires</p>
+                </div>
+                <div style="display:flex; gap:10px">
+                    <button class="btn btn-outline" id="bulkAddBtn"><i class="fas fa-layer-group"></i> Bulk Upload</button>
+                    <button class="btn btn-primary" id="addBtn"><i class="fas fa-plus"></i> Neues Produkt</button>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="label">Gesamt Produkte</div>
+                    <div class="value" id="count-total">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Aktiv im Shop</div>
+                    <div class="value" id="count-active">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="label">Länder/Nationen</div>
+                    <div class="value" id="count-nations">0</div>
+                </div>
+            </div>
+
+            <div class="product-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th width="80">Bild</th>
+                            <th onclick="changeSort('name')">Name <i class="fas fa-sort" id="sort-name"></i></th>
+                            <th onclick="changeSort('price')">Preis <i class="fas fa-sort" id="sort-price"></i></th>
+                            <th onclick="changeSort('priority')">Prio <i class="fas fa-sort" id="sort-priority"></i></th>
+                            <th>Stock (S-XXL)</th>
+                            <th>Typ</th>
+                            <th onclick="changeSort('nation')">Nation <i class="fas fa-sort" id="sort-nation"></i></th>
+                            <th onclick="changeSort('status')">Status <i class="fas fa-sort" id="sort-status"></i></th>
+                            <th>Verwandt</th>
+                            <th width="100">Aktionen</th>
+                        </tr>
+                        <tr class="filter-row">
+                            <td></td>
+                            <td><input type="text" id="filter-search" class="filter-input" placeholder="Suchen..." oninput="renderTable()"></td>
+                            <td>
+                                <div class="price-filter-group">
+                                    <select id="filter-price-op" class="price-op" onchange="renderTable()">
+                                        <option value="eq">=</option>
+                                        <option value="gt">&gt;</option>
+                                        <option value="lt">&lt;</option>
+                                    </select>
+                                    <input type="number" id="filter-price" class="filter-input" placeholder="Preis" oninput="renderTable()">
+                                </div>
+                            </td>
+                            <td><input type="number" id="filter-priority" class="filter-input" placeholder="Prio" oninput="renderTable()"></td>
+                            <td></td>
+                            <td>
+                                <select id="filter-type" class="filter-input" onchange="renderTable()">
+                                    <option value="">Alle</option>
+                                    <option value="shirt">T-Shirt</option>
+                                    <option value="hoodie">Hoodie</option>
+                                    <option value="scarf">Schal/Maske</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="filter-nation" class="filter-input" onchange="renderTable()">
+                                    <option value="">Alle</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="filter-status" class="filter-input" onchange="renderTable()">
+                                    <option value="">Alle</option>
+                                    <option value="active">Active</option>
+                                    <option value="hidden">Hidden</option>
+                                </select>
+                            </td>
+                            <td><input type="text" id="filter-related" class="filter-input" placeholder="IDs..." oninput="renderTable()"></td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody id="productTableBody">
+                        <!-- Rows via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ORDERS VIEW -->
+        <section id="view-orders" class="view-section">
+            <div class="header">
+                <div>
+                    <h1>Bestellungen</h1>
+                    <p style="color:var(--text-light)">Kundenbestellungen und Versandstatus</p>
+                </div>
+            </div>
+
+            <div class="product-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bestell-ID</th>
+                            <th>Kunde</th>
+                            <th>Produkte</th>
+                            <th>Gesamt</th>
+                            <th>Datum</th>
+                            <th>Status</th>
+                            <th>Aktionen</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orderTable">
+                        <!-- Rows via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- ANALYTICS VIEW -->
+        <section id="view-analytics" class="view-section">
+            <div class="header">
+                <h1>Statistiken & Insights</h1>
+            </div>
+            <div class="stat-card">
+                <p>Analytics werden basierend auf den Bestelldaten berechnet.</p>
+                <div id="analytics-summary" style="margin-top:2rem;"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div id="productModal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:2rem;">
+            <h2 id="modalTitle">Produkt hinzufügen</h2>
+            <button id="closeModal" style="background:none; border:none; font-size:1.5rem; cursor:pointer;"><i class="fas fa-times"></i></button>
+        </div>
+
+        <form id="productForm">
+            <input type="hidden" id="edit-id">
+            
+            <div class="form-group">
+                <label>Slug / ID (z.B. krd-retro-1)</label>
+                <input type="text" id="p-id" placeholder="id-name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Produkt Name</label>
+                <input type="text" id="p-name" placeholder="z.B. Kurdistan Retro Shirt" required>
+            </div>
+
+            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:15px">
+                <div class="form-group">
+                    <label>Produktart</label>
+                    <select id="p-type">
+                        <option value="shirt">T-Shirt</option>
+                        <option value="hoodie">Hoodie</option>
+                        <option value="scarf">Schal / Maske</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Nation</label>
+                    <select id="p-nation">
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group" style="display:flex; gap:15px;">
+                <div style="flex:1">
+                    <label>Preis (€)</label>
+                    <input type="number" step="0.01" id="p-price" value="29.90" required>
+                </div>
+                <div style="flex:1">
+                    <label>Priorität (Höher = Weiter oben)</label>
+                    <input type="number" id="p-priority" value="0">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Verwandte Produkte (IDs mit Komma getrennt)</label>
+                <input type="text" id="p-related-products" placeholder="z.B. br-hose, br-cap">
+            </div>
+
+            <div class="form-group">
+                <label>Bestand pro Größe</label>
+                <div style="display:grid; grid-template-columns: repeat(5, 1fr); gap:10px; background:#f9f9f9; padding:15px; border-radius:12px;">
+                    <div><label style="font-size:0.7rem">S</label><input type="number" id="s-S" value="10"></div>
+                    <div><label style="font-size:0.7rem">M</label><input type="number" id="s-M" value="10"></div>
+                    <div><label style="font-size:0.7rem">L</label><input type="number" id="s-L" value="10"></div>
+                    <div><label style="font-size:0.7rem">XL</label><input type="number" id="s-XL" value="10"></div>
+                    <div><label style="font-size:0.7rem">XXL</label><input type="number" id="s-XXL" value="10"></div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Bild hochladen</label>
+                <div class="upload-area" id="dropzone">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Hier klicken oder Bild reinziehen</p>
+                    <input type="file" id="p-image-file" hidden accept="image/*">
+                </div>
+                <input type="text" id="p-image-url" placeholder="images/Pfad/Bild.png" readonly>
+                <img id="imgPreview" class="preview-img">
+            </div>
+
+            <div class="form-group">
+                <label>Kurzbeschreibung</label>
+                <textarea id="p-short" rows="2"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Status</label>
+                <select id="p-status">
+                    <option value="active">Aktiv</option>
+                    <option value="hidden">Versteckt</option>
+                </select>
+            </div>
+
+            <div style="margin-top:2rem; display:flex; gap:15px;">
+                <button type="submit" class="btn btn-primary" style="flex:1">Speichern</button>
+                <button type="button" class="btn btn-outline" id="cancelBtn">Abbrechen</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="toast" id="toast">Änderung gespeichert!</div>
+
+    <!-- Image Hover Preview Element -->
+    <div id="hoverPreview" class="hover-preview">
+        <img id="hoverImg" src="" alt="Preview">
+    </div>
+
+    <div id="bulkModal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+            <h2>Bulk Upload & Batch Editing</h2>
+            <button onclick="closeBulk()" style="background:none; border:none; font-size:1.5rem; cursor:pointer;"><i class="fas fa-times"></i></button>
+        </div>
+        
+        <p style="color:#666; margin-bottom:2rem;">Wähle mehrere Bilder aus. Danach kannst du alle gleichzeitig beschriften und hochladen.</p>
+
+        <div class="upload-area" id="bulk-dropzone" style="margin-bottom:2rem;">
+            <i class="fas fa-images"></i>
+            <p>Mehrere Bilder hier reinziehen oder klicken</p>
+            <input type="file" id="bulk-file-input" hidden multiple accept="image/*">
+        </div>
+
+        <div id="bulk-editor" style="display:none;">
+            <div class="master-bar">
+                <div style="flex:1">
+                    <label style="font-size:0.7rem">MASTER PREIS</label>
+                    <div style="display:flex; gap:5px">
+                        <input type="number" id="master-price" value="29.90" step="0.01">
+                        <button class="sync-btn" onclick="syncAll('price')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div style="flex:1">
+                    <label style="font-size:0.7rem">MASTER BESTAND</label>
+                    <div style="display:flex; gap:5px">
+                        <input type="number" id="master-stock" value="10">
+                        <button class="sync-btn" onclick="syncAll('stock')" title="Auf alle übertragen (alle Größen)"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div style="flex:1">
+                    <label style="font-size:0.7rem">MASTER NATION</label>
+                    <div style="display:flex; gap:5px">
+                        <select id="master-nation">
+                        </select>
+                        <button class="sync-btn" onclick="syncAll('nation')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                </div>
+                <div style="flex:1">
+                    <label style="font-size:0.7rem">MASTER PRIO</label>
+                    <div style="display:flex; gap:5px">
+                        <input type="number" id="master-priority" value="0">
+                        <button class="sync-btn" onclick="syncAll('priority')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div style="flex:2; min-width: 250px;">
+                    <label style="font-size:0.7rem">MASTER VERWANDT (IDs)</label>
+                    <div style="display:flex; gap:5px">
+                        <input type="text" id="master-related" placeholder="br-hose, br-cap">
+                        <button class="sync-btn" onclick="syncAll('related')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div style="flex:1; min-width: 150px;">
+                    <label style="font-size:0.7rem">MASTER TYP</label>
+                    <div style="display:flex; gap:5px">
+                        <select id="master-type">
+                            <option value="shirt">Shirt</option>
+                            <option value="hoodie">Hoodie</option>
+                            <option value="scarf">Schal</option>
+                        </select>
+                        <button class="sync-btn" onclick="syncAll('type')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+                <div style="flex:2; min-width: 250px;">
+                    <label style="font-size:0.7rem">MASTER BESCHREIBUNG</label>
+                    <div style="display:flex; gap:5px">
+                        <input type="text" id="master-desc" placeholder="z.B. New Collection 2024">
+                        <button class="sync-btn" onclick="syncAll('desc')" title="Auf alle übertragen"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bulk-header">
+                <span>Bild</span>
+                <span>Name</span>
+                <span>Beschr.</span>
+                <span>Verwandt</span>
+                <span>Preis</span>
+                <span>Bestand</span>
+                <span>Prio</span>
+                <span>Typ</span>
+                <span>Nation</span>
+                <span>Status</span>
+                <span></span>
+            </div>
+            
+            <div id="bulk-items" class="bulk-list"></div>
+
+            <div style="margin-top:2rem; display:flex; gap:15px; position:sticky; bottom:0; padding:20px; background:white; border-top:1px solid #eee;">
+                <button class="btn btn-primary" style="flex:1" onclick="saveBulk()">Alle Speichern & Veröffentlichen</button>
+                <button class="btn btn-outline" onclick="closeBulk()">Abbrechen</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../data/products.js"></script>
+    <script>
+        const API_URL = 'http://localhost:3000/api';
+        let currentProducts = [];
+        let currentSort = { column: 'name', direction: 'asc' };
+
+        function switchView(viewId, el) {
+            document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+            document.getElementById(`view-${viewId}`).classList.add('active');
+            
+            document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+            el.classList.add('active');
+
+            if(viewId === 'orders') fetchOrders();
+            if(viewId === 'products') fetchProducts();
+            if(viewId === 'analytics') renderAnalytics();
+        }
+
+        // Fetch products
+        async function fetchProducts() {
+            const res = await fetch(`${API_URL}/products`);
+            currentProducts = await res.json();
+            renderTable();
+            updateStats();
+        }
+
+        async function fetchOrders() {
+            const res = await fetch(`${API_URL}/orders`);
+            const orders = await res.json();
+            const container = document.getElementById('orderTable');
+            
+            container.innerHTML = orders.map(o => `
+                <tr>
+                    <td style="font-family:monospace; font-weight:bold">${o.id}</td>
+                    <td>
+                        <div style="font-weight:bold">${o.customer.name}</div>
+                        <div style="font-size:0.75rem; color:#888">${o.customer.email}</div>
+                    </td>
+                    <td>${o.items.map(i => `${i.qty}x ${i.name} (${i.size})`).join('<br>')}</td>
+                    <td style="font-weight:bold; color:var(--accent)">€${o.total.toFixed(2)}</td>
+                    <td style="font-size:0.8rem">${new Date(o.date).toLocaleDateString()}</td>
+                    <td><span class="badge" style="background:${getStatusColor(o.status)}; color:#fff">${o.status}</span></td>
+                    <td>
+                        <select onchange="updateOrderStatus('${o.id}', this.value)" style="padding:5px; font-size:0.75rem; width:auto">
+                            <option value="Neu" ${o.status==='Neu'?'selected':''}>Neu</option>
+                            <option value="Bearbeitung" ${o.status==='Bearbeitung'?'selected':''}>Bearbeitung</option>
+                            <option value="Versendet" ${o.status==='Versendet'?'selected':''}>Versendet</option>
+                            <option value="Storniert" ${o.status==='Storniert'?'selected':''}>Storniert</option>
+                        </select>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function getStatusColor(status) {
+            switch(status) {
+                case 'Neu': return '#e50914';
+                case 'Bearbeitung': return '#f39c12';
+                case 'Versendet': return '#27ae60';
+                default: return '#95a5a6';
+            }
+        }
+
+        async function updateOrderStatus(id, status) {
+            await fetch(`${API_URL}/orders/${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ status })
+            });
+            showToast(`Status auf ${status} aktualisiert`);
+            fetchOrders();
+        }
+
+        // --- IMAGE HOVER PREVIEW ---
+        function showPreview(src, e) {
+            const preview = document.getElementById('hoverPreview');
+            const img = document.getElementById('hoverImg');
+            img.src = src;
+            preview.style.display = 'block';
+            movePreview(e);
+        }
+
+        function hidePreview() {
+            document.getElementById('hoverPreview').style.display = 'none';
+        }
+
+        function movePreview(e) {
+            const preview = document.getElementById('hoverPreview');
+            const pad = 20;
+            let x = e.clientX + pad;
+            let y = e.clientY + pad;
+            
+            // Boundary checks
+            if (x + 320 > window.innerWidth) x = e.clientX - 320 - pad;
+            if (y + 320 > window.innerHeight) y = e.clientY - 320 - pad;
+            
+            preview.style.left = x + 'px';
+            preview.style.top = y + 'px';
+        }
+
+        function renderAnalytics() {
+            const analyticsDiv = document.getElementById('analytics-summary');
+            fetch(`${API_URL}/orders`).then(res => res.json()).then(orders => {
+                const totalRevenue = orders.reduce((sum, o) => sum + o.total, 0);
+                const orderCount = orders.length;
+                
+                // Top Products
+                const productSales = {};
+                const nationSales = {};
+                orders.forEach(o => {
+                    o.items.forEach(i => {
+                        productSales[i.name] = (productSales[i.name] || 0) + i.qty;
+                    });
+                    const nation = o.customer.address.split(',').pop().trim().split(' ').pop(); // Very basic guess
+                    nationSales[o.customer.name] = (nationSales[o.customer.name] || 0) + o.total; // Using name as proxy for demo
+                });
+
+                const topProducts = Object.entries(productSales).sort((a,b) => b[1] - a[1]).slice(0, 5);
+
+                analyticsDiv.innerHTML = `
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="label">Gesamtumsatz</div>
+                            <div class="value">€${totalRevenue.toFixed(2)}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Bestellungen</div>
+                            <div class="value">${orderCount}</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="label">Durchschnittl. Warenkorb</div>
+                            <div class="value">€${(orderCount ? totalRevenue/orderCount : 0).toFixed(2)}</div>
+                        </div>
+                    </div>
+
+                    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:2rem; margin-top:2rem;">
+                        <div class="product-list">
+                            <h3>Bestseller</h3>
+                            <ul style="list-style:none; margin-top:1rem;">
+                                ${topProducts.map(([name, qty]) => `
+                                    <li style="display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px solid #eee">
+                                        <span>${name}</span>
+                                        <strong>${qty} verkauft</strong>
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                        <div class="product-list">
+                            <h3>Letzte Aktivitäten</h3>
+                            <ul style="list-style:none; margin-top:1rem;">
+                                ${orders.slice(-5).reverse().map(o => `
+                                    <li style="display:flex; justify-content:space-between; padding:10px 0; border-bottom:1px solid #eee">
+                                        <span>${o.customer.name}</span>
+                                        <span style="color:#888">${new Date(o.date).toLocaleTimeString()}</span>
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function updateStats() {
+            document.getElementById('count-total').innerText = currentProducts.length;
+            document.getElementById('count-active').innerText = currentProducts.filter(p => p.status === 'active').length;
+            const Nations = new Set(currentProducts.map(p => p.nation));
+            document.getElementById('count-nations').innerText = Nations.size;
+        }
+
+        function renderTable() {
+            const tbody = document.getElementById('productTableBody');
+            tbody.innerHTML = '';
+
+            const search = document.getElementById('filter-search').value.toLowerCase();
+            const nation = document.getElementById('filter-nation').value;
+            const type = document.getElementById('filter-type').value;
+            const status = document.getElementById('filter-status').value;
+            const priority = document.getElementById('filter-priority').value;
+            const relatedSearch = document.getElementById('filter-related').value.toLowerCase();
+            const priceVal = document.getElementById('filter-price').value;
+            const priceOp = document.getElementById('filter-price-op').value;
+
+            const filtered = currentProducts.filter(p => {
+                const matchesSearch = p.name.toLowerCase().includes(search) || p.id.toLowerCase().includes(search);
+                const matchesNation = !nation || p.nation === nation;
+                const matchesType = !type || p.type === type;
+                const matchesStatus = !status || p.status === status;
+                const matchesPriority = !priority || (p.priority != null && p.priority.toString().includes(priority));
+                const matchesRelated = !relatedSearch || (p.related_products && p.related_products.toLowerCase().includes(relatedSearch));
+                
+                let matchesPrice = true;
+                if (priceVal) {
+                    const pPrice = parseFloat(p.price);
+                    const fPrice = parseFloat(priceVal);
+                    if (priceOp === 'eq') matchesPrice = pPrice === fPrice;
+                    else if (priceOp === 'gt') matchesPrice = pPrice > fPrice;
+                    else if (priceOp === 'lt') matchesPrice = pPrice < fPrice;
+                }
+                
+                return matchesSearch && matchesNation && matchesType && matchesStatus && matchesPrice && matchesPriority;
+            });
+
+            // Sort
+            filtered.sort((a, b) => {
+                let valA = a[currentSort.column] || '';
+                let valB = b[currentSort.column] || '';
+                
+                if (typeof valA === 'string') {
+                    valA = valA.toLowerCase();
+                    valB = valB.toLowerCase();
+                }
+
+                if (valA < valB) return currentSort.direction === 'asc' ? -1 : 1;
+                if (valA > valB) return currentSort.direction === 'asc' ? 1 : -1;
+                return 0;
+            });
+
+            // Update Sort Icons
+            document.querySelectorAll('th i').forEach(icon => {
+                icon.className = 'fas fa-sort';
+                icon.parentElement.classList.remove('active');
+            });
+            const activeIcon = document.getElementById(`sort-${currentSort.column}`);
+            if(activeIcon) {
+                activeIcon.className = currentSort.direction === 'asc' ? 'fas fa-sort-up' : 'fas fa-sort-down';
+                activeIcon.parentElement.classList.add('active');
+            }
+
+            filtered.forEach(p => {
+                const tr = document.createElement('tr');
+                const pTypeDisplay = p.type === 'shirt' ? 'T-Shirt' : (p.type === 'hoodie' ? 'Hoodie' : 'Schal/Maske');
+                const statusBadge = `<span class="badge badge-${p.status || 'hidden'}">${p.status || 'hidden'}</span>`;
+                
+                const stock = p.stock || {S:0, M:0, L:0, XL:0, XXL:0};
+                const stockDisplay = `S:${stock.S} M:${stock.M} L:${stock.L} XL:${stock.XL} XXL:${stock.XXL}`;
+                
+                tr.innerHTML = `
+                    <td>
+                        <a href="../product-detail.html?id=${encodeURIComponent(p.id)}" target="_blank" style="display:block;">
+                            <img src="../${p.image}" class="thumb" 
+                                onmouseenter="showPreview('../${p.image}', event)" 
+                                onmouseleave="hidePreview()" 
+                                onmousemove="movePreview(event)"
+                                onerror="this.src='https://placehold.co/100x100?text=No+Img'">
+                        </a>
+                    </td>
+                    <td><strong>${p.name}</strong><br><small style="color:#888">${p.id}</small></td>
+                    <td>€${parseFloat(p.price).toFixed(2)}</td>
+                    <td><span style="font-weight:700; color:var(--accent)">${p.priority || 0}</span></td>
+                    <td style="font-size:0.75rem; color:#666">${stockDisplay}</td>
+                    <td>${pTypeDisplay}</td>
+                    <td><img src="https://flagcdn.com/24x18/${p.nation==='krd'?'tr':p.nation}.png" style="width:20px; border-radius:3px; margin-right:5px"> ${p.nation.toUpperCase()}</td>
+                    <td>${statusBadge}</td>
+                    <td style="font-size:0.7rem; color:#888; max-width:100px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${p.related_products || ''}">${p.related_products || '-'}</td>
+                    <td>
+                        <div class="actions">
+                            <button class="action-btn edit-btn" onclick="openEdit('${p.id}')"><i class="fas fa-edit"></i></button>
+                            <button class="action-btn delete-btn" onclick="deleteProduct('${p.id}')"><i class="fas fa-trash"></i></button>
+                        </div>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function changeSort(column) {
+            if (currentSort.column === column) {
+                currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+            } else {
+                currentSort.column = column;
+                currentSort.direction = 'asc';
+            }
+            renderTable();
+        }
+
+        // Modal Logic
+        const modal = document.getElementById('productModal');
+        const overlay = document.getElementById('overlay');
+        
+        function openModal(isEdit = false) {
+            modal.classList.add('open');
+            overlay.classList.add('open');
+            document.getElementById('modalTitle').innerText = isEdit ? 'Produkt bearbeiten' : 'Produkt hinzufügen';
+            if(!isEdit) {
+                document.getElementById('productForm').reset();
+                document.getElementById('edit-id').value = '';
+                document.getElementById('imgPreview').style.display = 'none';
+            }
+        }
+
+        function closeModal() {
+            modal.classList.remove('open');
+            overlay.classList.remove('open');
+        }
+
+        document.getElementById('addBtn').onclick = () => openModal(false);
+        document.getElementById('closeModal').onclick = closeModal;
+        document.getElementById('cancelBtn').onclick = closeModal;
+        overlay.onclick = closeModal;
+
+        // Edit
+        function openEdit(id) {
+            const p = currentProducts.find(x => x.id === id);
+            if(!p) return;
+
+            document.getElementById('edit-id').value = p.id;
+            document.getElementById('p-id').value = p.id;
+            document.getElementById('p-name').value = p.name;
+            document.getElementById('p-price').value = p.price;
+            document.getElementById('p-nation').value = p.nation;
+            document.getElementById('p-type').value = p.type || 'shirt';
+            document.getElementById('p-priority').value = p.priority || 0;
+            document.getElementById('p-image-url').value = p.image;
+            document.getElementById('p-related-products').value = p.related_products || '';
+            document.getElementById('p-short').value = p.shortDescription || '';
+            document.getElementById('p-status').value = p.status || 'active';
+
+            // Load Stock
+            const stock = p.stock || {S:10, M:10, L:10, XL:10, XXL:10};
+            document.getElementById('s-S').value = stock.S;
+            document.getElementById('s-M').value = stock.M;
+            document.getElementById('s-L').value = stock.L;
+            document.getElementById('s-XL').value = stock.XL;
+            document.getElementById('s-XXL').value = stock.XXL;
+
+            const preview = document.getElementById('imgPreview');
+            preview.src = '../' + p.image;
+            preview.style.display = 'block';
+
+            openModal(true);
+        }
+
+        // Delete
+        async function deleteProduct(id) {
+            if(!confirm(`Möchtest du das Produkt "${id}" wirklich löschen?`)) return;
+            
+            const res = await fetch(`${API_URL}/products/${id}`, { method: 'DELETE' });
+            if(res.ok) {
+                showToast("Produkt gelöscht");
+                fetchProducts();
+            }
+        }
+
+        // Upload
+        const dropzone = document.getElementById('dropzone');
+        const fileInput = document.getElementById('p-image-file');
+
+        dropzone.onclick = () => fileInput.click();
+        
+        fileInput.onchange = async () => {
+            if(!fileInput.files.length) return;
+            
+            const formData = new FormData();
+            formData.append('image', fileInput.files[0]);
+            formData.append('nation', document.getElementById('p-nation').value);
+
+            const res = await fetch(`${API_URL}/upload`, {
+                method: 'POST',
+                body: formData
+            });
+
+            if(res.ok) {
+                const data = await res.json();
+                document.getElementById('p-image-url').value = data.imagePath;
+                const preview = document.getElementById('imgPreview');
+                preview.src = '../' + data.imagePath;
+                preview.style.display = 'block';
+                showToast("Bild hochgeladen");
+            }
+        };
+
+        // Form Submit
+        document.getElementById('productForm').onsubmit = async (e) => {
+            e.preventDefault();
+            
+            const product = {
+                id: document.getElementById('p-id').value,
+                name: document.getElementById('p-name').value,
+                price: parseFloat(document.getElementById('p-price').value),
+                nation: document.getElementById('p-nation').value,
+                type: document.getElementById('p-type').value,
+                priority: parseInt(document.getElementById('p-priority').value) || 0,
+                image: document.getElementById('p-image-url').value,
+                related_products: document.getElementById('p-related-products').value,
+                shortDescription: document.getElementById('p-short').value,
+                status: document.getElementById('p-status').value,
+                stock: {
+                    S: parseInt(document.getElementById('s-S').value),
+                    M: parseInt(document.getElementById('s-M').value),
+                    L: parseInt(document.getElementById('s-L').value),
+                    XL: parseInt(document.getElementById('s-XL').value),
+                    XXL: parseInt(document.getElementById('s-XXL').value)
+                }
+            };
+
+            const res = await fetch(`${API_URL}/products`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(product)
+            });
+
+            if(res.ok) {
+                showToast("Produkt gespeichert!");
+                closeModal();
+                fetchProducts();
+            }
+        };
+
+        // Publish (Run Python)
+        document.getElementById('publishBtn').onclick = async () => {
+            const btn = document.getElementById('publishBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> GENERIERE...';
+            btn.disabled = true;
+
+            const res = await fetch(`${API_URL}/generate`, { method: 'POST' });
+            const data = await res.json();
+            
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+
+            if(res.ok) {
+                alert("Shop erfolgreich aktualisiert! Alle Seiten wurden neu generiert.");
+            } else {
+                alert("Fehler beim Generieren: " + data.error);
+            }
+        };
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.innerText = msg;
+            toast.style.display = 'block';
+            setTimeout(() => { toast.style.display = 'none'; }, 3000);
+        }
+
+        // --- BULK UPLOAD LOGIC ---
+        const bulkModal = document.getElementById('bulkModal');
+        let bulkFiles = [];
+
+        function openBulk() {
+            bulkModal.classList.add('open');
+            overlay.classList.add('open');
+            document.getElementById('bulk-editor').style.display = 'none';
+            document.getElementById('bulk-items').innerHTML = '';
+            bulkFiles = [];
+        }
+
+        function closeBulk() {
+            bulkModal.classList.remove('open');
+            overlay.classList.remove('open');
+        }
+
+        document.getElementById('bulkAddBtn').onclick = openBulk;
+
+        const bulkDropzone = document.getElementById('bulk-dropzone');
+        const bulkFileInput = document.getElementById('bulk-file-input');
+        
+        bulkDropzone.onclick = () => bulkFileInput.click();
+
+        bulkFileInput.onchange = async () => {
+            if(!bulkFileInput.files.length) return;
+            
+            const formData = new FormData();
+            // IMPORTANT: Append fields BEFORE files so Multer can read them early
+            formData.append('nation', document.getElementById('master-nation').value);
+            for(let file of bulkFileInput.files) {
+                formData.append('images', file);
+            }
+
+            const originalHTML = bulkDropzone.innerHTML;
+            bulkDropzone.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Lade Bilder hoch...';
+
+            try {
+                const res = await fetch(`${API_URL}/bulk-upload`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if(res.ok) {
+                    const data = await res.json();
+                    bulkFiles = data.files;
+                    renderBulkEditor();
+                    bulkDropzone.innerHTML = '<i class="fas fa-images"></i><p>Bilder erfolgreich geladen. Weitere hinzufügen?</p>';
+                    showToast(`${data.files.length} Bilder bereit.`);
+                } else {
+                    const err = await res.json();
+                    alert("Upload Fehler: " + (err.error || 'Unbekannter Fehler'));
+                    bulkDropzone.innerHTML = originalHTML;
+                }
+            } catch (e) {
+                alert("Verbindungsfehler zum Server. Läuft der Node-Server?");
+                bulkDropzone.innerHTML = originalHTML;
+            }
+            
+            bulkFileInput.value = ''; // Reset input
+        };
+
+        function renderBulkEditor() {
+            document.getElementById('bulk-editor').style.display = 'block';
+            const container = document.getElementById('bulk-items');
+            
+            bulkFiles.forEach((file, index) => {
+                const div = document.createElement('div');
+                div.className = 'bulk-item';
+                div.dataset.index = index;
+                
+                // Cleanup filename for ID/Name guess
+                const cleanName = file.originalName.split('.')[0].replace(/[-_]/g, ' ');
+                const cleanId = file.originalName.split('.')[0].toLowerCase();
+
+                div.innerHTML = `
+                    <a href="../product-detail.html?id=${encodeURIComponent(cleanId)}" target="_blank" style="display:block;">
+                        <img src="../${file.imagePath}" class="thumb"
+                            onmouseenter="showPreview('../${file.imagePath}', event)" 
+                            onmouseleave="hidePreview()" 
+                            onmousemove="movePreview(event)">
+                    </a>
+                    <input type="hidden" class="b-image-path" value="${file.imagePath}">
+                    <div>
+                        <input type="text" class="b-name" value="${cleanName}" placeholder="Name">
+                        <input type="text" class="b-id" value="${cleanId}" style="font-size:0.7rem; margin-top:5px; border-color:#eee" placeholder="ID (slug)">
+                    </div>
+                    <textarea class="b-desc" placeholder="Kurzbeschreibung..." style="font-size:0.8rem; height:60px; padding:5px;"></textarea>
+                    <input type="text" class="b-related" value="${document.getElementById('master-related').value}" placeholder="ID1, ID2...">
+                    <input type="number" class="b-price" value="${document.getElementById('master-price').value}" step="0.01">
+                    <div style="display:grid; grid-template-columns: repeat(5, 1fr); gap:2px;">
+                        <input type="number" class="b-stock-S" value="${document.getElementById('master-stock').value}" title="S">
+                        <input type="number" class="b-stock-M" value="${document.getElementById('master-stock').value}" title="M">
+                        <input type="number" class="b-stock-L" value="${document.getElementById('master-stock').value}" title="L">
+                        <input type="number" class="b-stock-XL" value="${document.getElementById('master-stock').value}" title="XL">
+                        <input type="number" class="b-stock-XXL" value="${document.getElementById('master-stock').value}" title="XXL">
+                    </div>
+                    <input type="number" class="b-priority" value="${document.getElementById('master-priority').value}" title="Priorität">
+                    <select class="b-type">
+                        <option value="shirt" ${document.getElementById('master-type').value === 'shirt'?'selected':''}>Shirt</option>
+                        <option value="hoodie" ${document.getElementById('master-type').value === 'hoodie'?'selected':''}>Hoodie</option>
+                        <option value="scarf" ${document.getElementById('master-type').value === 'scarf'?'selected':''}>Schal</option>
+                    </select>
+                    <select class="b-nation">
+                        ${nations.map(n => `<option value="${n.id}" ${document.getElementById('master-nation').value === n.id ? 'selected' : ''}>${n.name}</option>`).join('')}
+                    </select>
+                    <select class="b-status">
+                        <option value="active">Aktiv</option>
+                        <option value="hidden">Hidden</option>
+                    </select>
+                    <button class="action-btn delete-btn" onclick="this.parentElement.remove()"><i class="fas fa-trash"></i></button>
+                `;
+                container.appendChild(div);
+            });
+        }
+
+        function syncAll(field) {
+            const masterVal = document.getElementById(`master-${field}`).value;
+            if(field === 'stock') {
+                ['S','M','L','XL','XXL'].forEach(s => {
+                    document.querySelectorAll(`.bulk-item .b-stock-${s}`).forEach(input => {
+                        input.value = masterVal;
+                    });
+                });
+            } else {
+                document.querySelectorAll(`.bulk-item .b-${field}`).forEach(input => {
+                    input.value = masterVal;
+                });
+            }
+        }
+
+        async function saveBulk() {
+            const items = document.querySelectorAll('.bulk-item');
+            if(items.length === 0) return;
+
+            const saveBtn = document.querySelector('[onclick="saveBulk()"]');
+            const originalHTML = saveBtn.innerHTML;
+            saveBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Speichere alles...';
+            saveBtn.disabled = true;
+
+            try {
+                for(let item of items) {
+                    const product = {
+                        id: item.querySelector('.b-id').value,
+                        name: item.querySelector('.b-name').value,
+                        price: parseFloat(item.querySelector('.b-price').value),
+                        type: item.querySelector('.b-type').value,
+                        nation: item.querySelector('.b-nation').value,
+                        status: item.querySelector('.b-status').value,
+                        priority: parseInt(item.querySelector('.b-priority').value) || 0,
+                        related_products: item.querySelector('.b-related').value,
+                        image: item.querySelector('.b-image-path').value,
+                        shortDescription: item.querySelector('.b-desc').value,
+                        stock: {
+                            S: parseInt(item.querySelector('.b-stock-S').value),
+                            M: parseInt(item.querySelector('.b-stock-M').value),
+                            L: parseInt(item.querySelector('.b-stock-L').value),
+                            XL: parseInt(item.querySelector('.b-stock-XL').value),
+                            XXL: parseInt(item.querySelector('.b-stock-XXL').value)
+                        }
+                    };
+
+                    const res = await fetch(`${API_URL}/products`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(product)
+                    });
+                    
+                    if(!res.ok) throw new Error(`Fehler bei Produkt ${product.id}`);
+                }
+
+                showToast(`${items.length} Produkte angelegt!`);
+                closeBulk();
+                fetchProducts();
+                
+                // Trigger shop generation automatically
+                document.getElementById('publishBtn').click();
+            } catch (err) {
+                alert("Fehler beim Speichern: " + err.message);
+                saveBtn.innerHTML = originalHTML;
+                saveBtn.disabled = false;
+            }
+        }
+
+        function populateNationDropdowns() {
+            const nationsList = typeof nations !== 'undefined' ? nations : [];
+            const dropdowns = [
+                document.getElementById('filter-nation'),
+                document.getElementById('p-nation'),
+                document.getElementById('master-nation')
+            ];
+
+            dropdowns.forEach(select => {
+                if (!select) return;
+                const isFilter = select.id === 'filter-nation';
+                const currentValue = select.value;
+                
+                select.innerHTML = isFilter ? '<option value="">Alle</option>' : '';
+                
+                nationsList.forEach(n => {
+                    const opt = document.createElement('option');
+                    opt.value = n.id;
+                    opt.textContent = `${n.name} (${n.id})`;
+                    select.appendChild(opt);
+                });
+                
+                if (currentValue) select.value = currentValue;
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            populateNationDropdowns();
+            fetchProducts();
+        });
+    </script>
+</body>
+</html>

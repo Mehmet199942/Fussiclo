@@ -1,0 +1,59 @@
+﻿PFLICHTFELDER;;;;;;;OPTIONALE FELDER;;;;;;;;;;;;
+Name *;Slug *;Preis * (€);SKU *;Status *;Kurzbeschreibung *;Bild 1 * (Pfad);Bild 2 (Pfad);Bild 3 (Pfad);Lange Beschreibung;Stichpunkte (| trennen);Pflege (| trennen);Farben (| oder , trennen);Kategorie;Reihenfolge;Im Grid zeigen?;Treuepunkte;Browser-Titel;Meta Description;OG Image (Pfad)
+Angezeigter Produktname;URL-Teil, nur a-z 0-9 -;z.B. 34.99 (kein €);Artikelnummer;active oder draft;1–2 Sätze unter dem Preis;Pfad ab Shop-Root;Optional – leer = Bild1;Optional – leer = Bild1;Textblock im Accordion;Trenne Punkte mit |;Trenne Hinweise mit |;Farben komma- oder |-getrennt;z.B. Kurdistan Collection;1=zuerst, 10=später;yes oder no;Leer = Preis×6;Leer = Name | WORLD CUP SHOP;Leer = Kurzbeschreibung;Leer = Bild 1
+EFRÎN T-Shirt;efrin-shirt;34.99;KRD-EFRIN-SHIRT;active;Statement-Shirt für stolze Kurdinnen und Kurden weltweit – EFRÎN in den Farben der Kurdistan-Flagge.;images/efrin-shirt.png;images/efrin-shirt.png;;Das EFRÎN T-Shirt ist mehr als nur Kleidung – es ist ein Statement. Der Name EFRÎN, geschrieben in den leuchtenden Farben der Kurdistan-Flagge, erinnert an eine der ältesten Städte Kurdistans.;Design: EFRÎN Schriftzug in Flaggenfarben|Material: 85% Baumwolle, 15% Polyester|Athletischer Schnitt|Atmungsaktiv & hautfreundlich;Maschinenwäsche max. 30°C|Nicht bleichen|Nicht Tumbletrocknen|Bügeln bei niedriger Temperatur;Schwarz, Weiß, Rot, Blau;Kurdistan Collection;10;yes;209;EFRÎN T-Shirt | WORLD CUP SHOP;Statement-Shirt für stolze Kurdinnen und Kurden weltweit.;images/efrin-shirt.png
+Kurdistan Flaggen T-Shirt;krd-flag-shirt;29.99;KRD-FLAG-SHIRT;active;Klassisches T-Shirt mit gesticktem Kurdistan-Flaggen-Patch – zeitlos, stolz und hochwertig.;images/krd-flag-shirt.png;images/krd-flag-shirt-2.png;;Das Kurdistan Flaggen T-Shirt vereint sportlichen Stil mit kultureller Identität.;Gesticktes Kurdistan-Flaggen-Patch auf der Brust|Material: 100% Baumwolle|Klassischer Rundhals;Maschinenwäsche max. 30°C|Nicht bleichen|Auf links bügeln;Schwarz, Weiß, Rot, Blau;Kurdistan Collection;20;yes;179;Kurdistan Flaggen T-Shirt | WORLD CUP SHOP;Klassisches T-Shirt mit gesticktem Kurdistan-Flaggen-Patch.;images/krd-flag-shirt.png
+Kurdistan Karte T-Shirt;krd-map-shirt;34.99;KRD-MAP-SHIRT;active;Eindrucksvolles T-Shirt mit der Kurdistan-Karte, Flagge und Freiheitssymbolen.;images/krd-map-shirt.png;;;Das Kurdistan Karte T-Shirt zeigt ein kraftvolles Design: Die Karte Kurdistans mit der Flagge.;Kurdistan-Karte mit Flagge und Symbolen|Schriftzug: KURDISTAN|Material: 85% Baumwolle;Maschinenwäsche max. 30°C|Nicht bleichen|Bügeln bei niedriger Temperatur;Schwarz, Weiß, Rot, Blau;Kurdistan Collection;30;yes;209;Kurdistan Karte T-Shirt | WORLD CUP SHOP;T-Shirt mit der Kurdistan-Karte und Freiheitssymbolen.;images/krd-map-shirt.png
+Kurdistan #10 Trikot;krd-number10;39.99;KRD-NUMBER10-JERSEY;active;Offiziell inspiriertes Kurdistan-Trikot mit der ikonischen Nummer 10 und der Kurdistan-Flagge.;images/krd-number10-jersey.png;images/krd-number10-jersey-2.png;;Das Kurdistan #10 Trikot – die Nummer der Legenden, kombiniert mit der Kurdistan-Flagge.;Nummer 10 mit Kurdistan-Flagge|Material: 100% Polyester Sportmesh|Atmungsaktiv;Maschinenwäsche max. 30°C|Nicht bleichen|Nicht bügeln auf den Druck;Schwarz, Weiß, Rot, Blau;Kurdistan Trikots;40;yes;239;Kurdistan #10 Trikot | WORLD CUP SHOP;Kurdistan-Trikot mit Nummer 10 und Flagge.;images/krd-number10-jersey.png
+Kurdistan Text T-Shirt;krd-text-shirt;29.99;KRD-TEXT-SHIRT;active;Klares Statement mit großem KURDISTAN-Schriftzug und Flaggen-Patch.;images/krd-text-shirt.png;;;Das Kurdistan Text T-Shirt spricht für sich: Großer KURDISTAN-Schriftzug, kombiniert mit dem Kurdistan-Flaggen-Patch.;Großer KURDISTAN Schriftzug|Flaggen-Patch|Material: 90% Baumwolle;Maschinenwäsche max. 30°C|Nicht bleichen|Bügeln bei niedriger Temperatur;Schwarz, Weiß, Rot, Blau;Kurdistan Collection;50;yes;179;Kurdistan Text T-Shirt | WORLD CUP SHOP;T-Shirt mit großem KURDISTAN-Schriftzug und Flaggen-Patch.;images/krd-text-shirt.png
+Kurdistan Text T-Shirt 2;krd-text-shirt2;29.99;KRD-TEXT-SHIRT2;active;Klares Statement mit großem KURDISTAN-Schriftzug und Flaggen-Patch.;images/Gemini_Generated_Image_ln1gwln1gwln1gwl.png;;;;;;;;;yes;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;

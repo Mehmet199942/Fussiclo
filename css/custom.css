@@ -1,0 +1,987 @@
+/*===============================================================================================
+[ TRUE DARK MODE - BLACK & WHITE ]*/
+
+:root {
+    --bg-black: #000000;
+    --bg-dark: #0a0a0a;
+    --text-white: #ffffff;
+    --text-gray: #bbbbbb;
+    --border-dark: #222222;
+}
+
+/* Prevent white flash on html/body and kill horizontal overflow stripe */
+html {
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+/* Push page content below fixed header on desktop */
+@media (min-width: 992px) {
+    .section-slide.d-none.d-lg-block:first-of-type,
+    body > section:first-of-type,
+    .animsition > section:first-child,
+    .section-slide {
+        margin-top: 0;
+    }
+}
+
+/* Lift entire carousel wrapper above the ::after gradient */
+.section-slide .wrap-slick1 {
+    position: relative;
+    z-index: 1000;
+}
+
+/* Hero text content sits above everything */
+.layer-slick1 {
+    position: relative;
+    z-index: 1001;
+}
+
+/* Fade hero section to black at bottom so it blends cleanly with the fixed nav */
+.section-slide::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.8) 60%, #000000 100%);
+    pointer-events: none;
+    z-index: 999;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body.dark-mode,
+body.dark-mode section,
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode nav,
+body.dark-mode aside {
+    background-color: var(--bg-black) !important;
+    color: var(--text-white) !important;
+}
+
+/* Force transparency for mobile-header area to allow the hero image to show through */
+body.dark-mode .wrap-header-mobile,
+body.dark-mode .wrap-header-mobile *,
+body.dark-mode .logo-mobile,
+body.dark-mode .logo-mobile a,
+body.dark-mode .logo-mobile img {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Ensure no "force black" rule hits the mobile header, categories, or gallery */
+body.dark-mode div:not([class*="mobile-category-bg"]):not([class*="item-slick1"]):not([class*="bg-img-split"]):not(.container):not(.flex-col-l-m):not(.layer-slick1):not(.wrap-header-mobile):not(.logo-mobile):not(.mobile-top-bar):not(.split-banner-content):not(.mobile-category-item):not(.horiz-scroll-gallery):not(.horiz-scroll-gallery div) {
+    background-color: var(--bg-black);
+}
+
+
+
+/* Specific text overrides to ensure readability */
+body.dark-mode p,
+body.dark-mode span,
+body.dark-mode a,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode li,
+body.dark-mode input,
+body.dark-mode button {
+    color: var(--text-white) !important;
+}
+
+/* Special Case: Categories with background images */
+body.dark-mode .mobile-category-bg {
+    background-color: transparent !important;
+}
+
+/* Borders and Dividers */
+body.dark-mode * {
+    border-color: var(--border-dark) !important;
+}
+
+/* Header & Navigation */
+body.dark-mode .wrap-menu-desktop,
+body.dark-mode .container-menu-desktop,
+body.dark-mode .top-bar {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .fix-menu-desktop .wrap-menu-desktop {
+    background-color: #000000 !important;
+}
+
+body.dark-mode .main-menu>li>a {
+    color: var(--text-white) !important;
+}
+
+/* Footer & Newsletter */
+body.dark-mode footer,
+body.dark-mode .bg-white-footer {
+    background-color: var(--bg-black) !important;
+}
+
+body.dark-mode input::placeholder {
+    color: #666 !important;
+}
+
+/* Utility Class Overrides (Force) - Exempt banners and category items */
+body.dark-mode [class*="bg"]:not(.bg0):not(.split-banner-content):not(.mobile-category-item) {
+    background-color: var(--bg-black) !important;
+}
+
+
+/* bg0 on containers = black background, white text */
+body.dark-mode div.bg0,
+body.dark-mode form.bg0,
+body.dark-mode section.bg0,
+body.dark-mode main.bg0,
+body.dark-mode header.bg0,
+body.dark-mode .bg0:not(a):not(button):not(input):not(select):not(span) {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* bg0 on interactive elements = white background, black text */
+body.dark-mode a.bg0,
+body.dark-mode button.bg0,
+body.dark-mode input.bg0,
+body.dark-mode select.bg0,
+body.dark-mode span.bg0 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Override inline white backgrounds on content sections (div, footer, section) */
+body.dark-mode div[style*="background-color:#fff"],
+body.dark-mode div[style*="background-color: #fff"],
+body.dark-mode div[style*="background-color:white"],
+body.dark-mode div[style*="background-color: white"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+body.dark-mode div[style*="background-color:#fff"] *,
+body.dark-mode div[style*="background-color: #fff"] * {
+    color: #ffffff !important;
+}
+body.dark-mode div[style*="background-color:#fff"] a,
+body.dark-mode div[style*="background-color: #fff"] a {
+    color: #ccc !important;
+}
+body.dark-mode div[style*="background-color:#fff"] h1,
+body.dark-mode div[style*="background-color:#fff"] h2,
+body.dark-mode div[style*="background-color:#fff"] h3,
+body.dark-mode div[style*="background-color: #fff"] h1,
+body.dark-mode div[style*="background-color: #fff"] h2,
+body.dark-mode div[style*="background-color: #fff"] h3 {
+    color: #ffffff !important;
+}
+body.dark-mode footer[style*="background-color:#fff"],
+body.dark-mode footer[style*="background-color: #fff"],
+body.dark-mode footer[style*="background-color:white"],
+body.dark-mode footer[style*="background-color: white"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-top-color: #333 !important;
+}
+body.dark-mode footer[style*="background-color:#fff"] *,
+body.dark-mode footer[style*="background-color: #fff"] * {
+    color: #ffffff !important;
+}
+body.dark-mode section[style*="background-color:#fff"],
+body.dark-mode section[style*="background-color: #fff"],
+body.dark-mode section[style*="background:#fff"],
+body.dark-mode section[style*="background: #fff"] {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Product detail page override: keep true black mode instead of forced white bg0 */
+body.dark-mode.dark-product-detail .bg0,
+body.dark-mode.dark-product-detail .bg0 *,
+body.dark-mode.dark-product-detail a.bg0,
+body.dark-mode.dark-product-detail button.bg0 {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode.dark-product-detail .newsletter-lfdy,
+body.dark-mode.dark-product-detail .sec-product-detail,
+body.dark-mode.dark-product-detail .sec-relate-product,
+body.dark-mode.dark-product-detail .bread-crumb,
+body.dark-mode.dark-product-detail footer,
+body.dark-mode.dark-product-detail .container {
+    background-color: #000000 !important;
+}
+
+
+body.dark-mode [class*="cl"] {
+    color: var(--text-white) !important;
+}
+
+/* Keep some specific utility colors if needed (like success/warning) */
+body.dark-mode .cl11 {
+    color: #f9ba48 !important;
+}
+
+/* Exempt split banners and category items from global dark mode background rules */
+body.dark-mode .split-banner-content,
+body.dark-mode .split-banner-item,
+body.dark-mode .mobile-category-item,
+body.dark-mode .mobile-category-item div {
+    background-color: transparent !important;
+}
+
+/* Accent color */
+
+/* Product Grid & Gallery */
+body.dark-mode .block2-txt-child1 a {
+    color: var(--text-white) !important;
+}
+
+body.dark-mode .how-shadow1 {
+    box-shadow: 0 10px 30px 0px rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Scrollbars for Dark Mode */
+body.dark-mode::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000;
+}
+
+body.dark-mode::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+
+
+
+/* Phase 10: Mobile logo – centered absolutely */
+.logo-mobile {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 1001 !important;
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.logo-mobile img {
+    width: 120px !important;
+    height: 120px !important;
+    min-width: 120px !important;
+    max-width: none !important;
+    max-height: none !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Desktop logo – far left, normal flex flow */
+.limiter-menu-desktop .logo {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    transform: none !important;
+    z-index: auto !important;
+    width: 120px !important;
+    height: 120px !important;
+    margin: 0 30px 0 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-shrink: 0 !important;
+}
+
+.limiter-menu-desktop .logo img {
+    width: 120px !important;
+    height: 120px !important;
+    min-width: 120px !important;
+    max-width: none !important;
+    max-height: none !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    filter: invert(1);
+    mix-blend-mode: screen;
+    background-color: transparent !important;
+}
+
+/* Header buttons and common adjustments */
+body.dark-mode .flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04,
+body.dark-mode .flex-c-m.stext-101.cl2.bg1.bor1.hov-btn1.p-lr-15.trans-04,
+body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+
+
+/* Force white background and black text for SHOP NOW buttons in dark mode */
+body.dark-mode .flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04,
+body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+body.dark-mode .flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04:hover,
+body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover {
+    background-color: #eeeeee !important;
+    color: #000000 !important;
+}
+
+/* Horizontally scrollable pill tabs for mobile */
+@media (max-width: 991px) {
+
+    /* Adjust main content for mobile top bar */
+    .animsition {
+        padding-top: 0 !important;
+    }
+
+    .mobile-top-bar {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+    }
+
+    .wrap-header-mobile {
+        border-bottom: none !important;
+    }
+
+    /* Fixed mobile header logic */
+    .mobile-header-active {
+        background-color: rgba(0, 0, 0, 0.9) !important;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Logo invert for dark theme if needed */
+    .logo-mobile img {
+        filter: invert(1);
+        /* Better than brightness(0) invert(1) if source is black on white */
+        mix-blend-mode: screen;
+        /* Hides the black background of the inverted logo */
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .logo-mobile {
+        background-color: transparent !important;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .filter-tope-group {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 10px;
+        /* Space for scrollbar */
+        margin-right: -15px;
+        /* Ignore container padding on right if needed */
+        margin-left: -15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .filter-tope-group button {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        border: 1px solid #e6e6e6;
+        border-radius: 20px;
+        padding: 5px 15px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .filter-tope-group button.how-active1 {
+        background-color: #222;
+        color: white;
+        border-color: #222;
+    }
+}
+
+/* Phase 11: Desktop Streetwear Redesign */
+@media (min-width: 992px) {
+    .header-v4 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000000 !important;
+        z-index: 1100;
+        height: 140px;
+    }
+
+    .header-v4 .wrap-menu-desktop {
+        background-color: #000000 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        height: 100px !important;
+    }
+
+    .header-v4 .top-bar {
+        background-color: #000000 !important;
+        border-bottom: none;
+        height: 40px !important;
+        display: flex !important;
+        align-items: center;
+    }
+
+    .header-v4 .top-bar .container {
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-v4 .limiter-menu-desktop.container {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        position: relative !important;
+        max-width: 100% !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        height: 100px !important;
+    }
+
+    .header-v4 .menu-desktop {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .header-v4 .wrap-icon-header {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+    }
+
+    .header-v4 .main-menu {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+    }
+
+    .header-v4 .main-menu>li {
+        padding: 0 10px !important;
+    }
+
+    .header-v4 .main-menu>li>a {
+        font-family: Poppins-Bold, sans-serif;
+        color: white !important;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .d-none.d-lg-block.section-slide .item-slick1 {
+        height: 85vh !important;
+    }
+
+    /* Split Banner Hover Effects */
+    .split-banner-item:hover .bg-img-split {
+        transform: scale(1.1);
+    }
+
+    /* Horizontal Gallery Scroll Utility */
+    .horiz-scroll-gallery::-webkit-scrollbar {
+        display: none;
+    }
+
+    .horiz-scroll-gallery {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+/* Phase 14: Mobile Refinements */
+@media (max-width: 991px) {
+    .header-v4 .container-menu-desktop {
+        display: none !important;
+    }
+
+    .mobile-top-bar {
+        background-color: #000 !important;
+        height: 35px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 0 20px !important;
+    }
+
+    .wrap-header-mobile {
+        background-color: #000 !important;
+        height: 80px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        position: relative !important;
+        padding: 0 15px !important;
+    }
+
+    .header-mobile-left,
+    .header-mobile-right {
+        display: flex !important;
+        align-items: center !important;
+        z-index: 11 !important;
+    }
+
+
+
+    /* Force pure white on mobile header icons */
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+        background-color: #ffffff !important;
+        height: 2px !important;
+        width: 24px !important;
+        display: block !important;
+        position: absolute !important;
+    }
+
+    .hamburger-inner::before {
+        top: -6px !important;
+    }
+
+    .hamburger-inner::after {
+        top: 6px !important;
+    }
+
+    .hamburger-box {
+        width: 24px !important;
+        height: 18px !important;
+        display: inline-block !important;
+        position: relative !important;
+    }
+
+
+    .zmdi-mall,
+    .zmdi-shopping-cart,
+    .zmdi-search {
+        color: #ffffff !important;
+        opacity: 1 !important;
+        font-weight: bold !important;
+    }
+
+    /* Hide the notification dot if it ruins the minimal look */
+    .icon-header-noti::after {
+        display: none !important;
+    }
+
+    .btn-show-menu-mobile,
+    .icon-header-item {
+        color: #ffffff !important;
+    }
+
+    /* Phase 14: Restored Mobile Category Layout */
+    .mobile-category-item {
+        position: relative !important;
+        height: 50vh !important;
+        width: 100% !important;
+        overflow: hidden !important;
+        background-color: #000 !important;
+    }
+
+    .mobile-category-bg {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background-size: cover !important;
+        background-position: center !important;
+        transition: transform 0.5s ease !important;
+    }
+
+    .mobile-category-item:hover .mobile-category-bg {
+        transform: scale(1.05) !important;
+    }
+}
+
+/* Force white background and black text for SHOP NOW buttons in dark mode */
+body.dark-mode .flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04,
+body.dark-mode .flex-c-m.stext-101.cl2.bg1.bor1.hov-btn1.p-lr-15.trans-04,
+body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04,
+body.dark-mode a.flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+body.dark-mode .flex-c-m.stext-101.cl0.bg1.bor1.hov-btn1.p-lr-15.trans-04:hover,
+body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover {
+    background-color: #eeeeee !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+body.dark-mode .logo-center img { filter: invert(1); mix-blend-mode: screen; background-color: transparent !important; }
+
+/* Cart quantity input: black background, white text */
+body.dark-mode .num-product {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-left-color: #444 !important;
+    border-right-color: #444 !important;
+}
+
+/* Cart summary label: prevent overflow of "Zwischensumme:" */
+body.dark-mode .size-208,
+.size-208 {
+    width: 50% !important;
+}
+body.dark-mode .size-209,
+.size-209 {
+    width: 50% !important;
+}
+
+/* =============================================
+   FORCE PURE BLACK - override all grey/light backgrounds
+   ============================================= */
+
+/* Animsition page transition overlay: was #ddd grey */
+body.dark-mode .animsition-overlay-slide,
+.animsition-overlay-slide {
+    background-color: #000000 !important;
+}
+
+/* Grey utility classes */
+body.dark-mode .bg2,
+body.dark-mode .bg6 {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+/* Search/filter dropdowns */
+body.dark-mode .show-search,
+body.dark-mode .show-filter,
+body.dark-mode .show-search::after,
+body.dark-mode .show-filter::after {
+    background-color: #111111 !important;
+    border-color: #333333 !important;
+}
+
+/* Product grid item backgrounds */
+body.dark-mode .block2,
+body.dark-mode .block2-txt,
+body.dark-mode .wrap-pic-w {
+    background-color: #000000 !important;
+}
+
+/* Table rows in cart */
+body.dark-mode .table-shopping-cart,
+body.dark-mode .table_head,
+body.dark-mode .table_row,
+body.dark-mode .table-shopping-cart td,
+body.dark-mode .table-shopping-cart th {
+    background-color: #000000 !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Input fields */
+body.dark-mode input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="range"]),
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border-color: #444444 !important;
+}
+
+/* Keep white bg on primary action buttons and their inputs */
+body.dark-mode input.bg0,
+body.dark-mode button.bg0 {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Slick carousel dots/tracks */
+body.dark-mode .slick-track,
+body.dark-mode .slick-list {
+    background-color: transparent !important;
+}
+
+/* Breadcrumb area */
+body.dark-mode .bread-crumb-v2,
+body.dark-mode .bread-crumb {
+    background-color: #000000 !important;
+}
+/* --- Side Panels & Modals Fix --- */
+.js-sidebar {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transition: all 0.4s !important;
+    z-index: 2000 !important;
+    background-color: transparent !important;
+}
+
+.js-sidebar.show-sidebar {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.modal-search-header {
+    position: fixed !important;
+    top: -100% !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transition: all 0.4s !important;
+    z-index: 10000 !important;
+}
+
+.modal-search-header.show-modal-search {
+    top: 0 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* =============================================
+   MINIMALIST BLACK FOOTER (PESO INSPIRED)
+   ============================================= */
+
+.footer-minimal {
+    background-color: #000 !important;
+    padding: 80px 0 40px 0;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-minimal h4 {
+    color: #fff !important;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.newsletter-form-minimal {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.newsletter-input-minimal {
+    background: transparent !important;
+    border: none !important;
+    color: #fff !important;
+    padding: 10px 0;
+    width: 100%;
+    outline: none;
+}
+
+/* =============================================
+   NATION SELECTION GRID (PREMIUM)
+   ============================================= */
+
+.sidebar-menu-wrapitem.js-sidebar-nations {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 15px !important;
+    padding: 20px 0 !important;
+    list-style: none !important;
+}
+
+.nation-field-item {
+    background: #111 !important;
+    border: 1px solid #222 !important;
+    border-radius: 12px !important;
+    padding: 20px 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.nation-field-item:hover {
+    background: #1a1a1a !important;
+    border-color: #444 !important;
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
+}
+
+.nation-field-flag {
+    font-size: 32px !important;
+    margin-bottom: 12px !important;
+    display: block !important;
+}
+
+.nation-field-flag img {
+    width: 40px !important;
+    height: 30px !important;
+    object-fit: cover !important;
+    border-radius: 4px !important;
+    margin: 0 auto !important;
+}
+
+.nation-field-name {
+    font-family: 'Poppins-Bold', sans-serif !important;
+    font-size: 12px !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    color: #fff !important;
+}
+
+/* Specific item for Home/Shop links to stand out */
+.nation-field-special {
+    background: linear-gradient(135deg, #222 0%, #111 100%) !important;
+    grid-column: span 2 !important;
+}
+
+@media (min-width: 768px) {
+    .sidebar-menu-wrapitem.js-sidebar-nations {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+.sidebar-menu {
+    width: 100% !important;
+    max-width: 400px !important;
+    height: 100% !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.js-sidebar.show-sidebar .sidebar-menu {
+    transform: translateX(0);
+}
+
+.sidebar-menu * {
+    color: #fff !important;
+}
+
+.js-hide-sidebar i {
+    color: #fff !important;
+}
+
+.newsletter-input-minimal::placeholder {
+    color: #888 !important;
+    text-transform: none;
+}
+
+.newsletter-btn-minimal {
+    background: transparent !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px 0 10px 20px;
+    transition: opacity 0.3s;
+}
+
+.newsletter-btn-minimal:hover {
+    opacity: 0.7;
+}
+
+.social-links-minimal {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.social-links-minimal a {
+    color: #fff !important;
+    font-size: 20px;
+    transition: transform 0.3s;
+}
+
+.social-links-minimal a:hover {
+    transform: translateY(-3px);
+}
+
+.footer-bottom-minimal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    color: #fff !important;
+}
+
+.footer-links-minimal {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links-minimal a {
+    color: #fff !important;
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.footer-links-minimal a:hover {
+    opacity: 0.6;
+}
+
+.footer-right-minimal {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-right-minimal span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media (max-width: 991px) {
+    .footer-bottom-minimal {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .footer-minimal {
+        padding: 60px 20px 30px 20px;
+    }
+
+    .newsletter-form-minimal {
+        max-width: 100%;
+    }
+}

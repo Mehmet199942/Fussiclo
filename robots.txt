@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /vendor/
+Disallow: /fonts/
+
+Sitemap: sitemap.xml

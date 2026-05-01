@@ -1,0 +1,5055 @@
+[
+    {
+        "id": "krd 1",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/1.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "30 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 2",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/2.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "31 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 3",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/3.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "32 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 4",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/4.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "33 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 5",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/5.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "34 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 6",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/6.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "35 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 7",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/7.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "36 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 8",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/8.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "37 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 9",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/9.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "38 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 10",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/10.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "39 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 11",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/11.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "40 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 12",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "nation": "krd",
+        "type": "shirt",
+        "priority": 1,
+        "image": "images/krd/12.png",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 13",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/13.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "42 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 14",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/14.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "43 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 15",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/15.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "44 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 16",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/16.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "45 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 17",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/17.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "46 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "krd 18",
+        "name": "Kurdistan Retro",
+        "price": 24.9,
+        "type": "shirt",
+        "nation": "krd",
+        "image": "images/krd/18.png",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "shortDescription": "Das klassische gelbe Retro-Shirt aus Brasilien",
+        "description": "Hol dir das originale Gefühl vom Zuckerhut nach Hause. Retro-Design in höchster Qualität.",
+        "bullets": [
+            "100% Baumwolle",
+            "Klassischer Schnitt",
+            "Retro Logo"
+        ],
+        "washingInstructions": [
+            "47 Grad waschen"
+        ],
+        "colors": [
+            "Schwarz",
+            "Weiß",
+            "Rot",
+            "Blau"
+        ],
+        "sizeNote": "Fällt normal aus",
+        "category": "Trikots",
+        "keywords": "Brasilien",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "br 1",
+        "name": "Brasilien Retro",
+        "price": 29.9,
+        "nation": "br",
+        "image": "images/br/1.png",
+        "shortDescription": "Brasilien Retro",
+        "status": "active",
+        "type": "shirt",
+        "image2": "",
+        "image3": "",
+        "image4": "",
+        "image5": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_9mx5nl9mx5nl9mx5",
+        "name": "Gemini Generated Image 9mx5nl9mx5nl9mx5",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_9mx5nl9mx5nl9mx5.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_bp8exlbp8exlbp8e",
+        "name": "Gemini Generated Image bp8exlbp8exlbp8e",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_bp8exlbp8exlbp8e.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_di6s6tdi6s6tdi6s",
+        "name": "Gemini Generated Image di6s6tdi6s6tdi6s",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_di6s6tdi6s6tdi6s.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_duvtgvduvtgvduvt",
+        "name": "Gemini Generated Image duvtgvduvtgvduvt",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_duvtgvduvtgvduvt.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_e90w7pe90w7pe90w",
+        "name": "Gemini Generated Image e90w7pe90w7pe90w",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_e90w7pe90w7pe90w.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ehkti0ehkti0ehkt",
+        "name": "Gemini Generated Image ehkti0ehkti0ehkt",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_ehkti0ehkti0ehkt.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_f99gwsf99gwsf99g",
+        "name": "Gemini Generated Image f99gwsf99gwsf99g",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_f99gwsf99gwsf99g.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_iiv1z7iiv1z7iiv1",
+        "name": "Gemini Generated Image iiv1z7iiv1z7iiv1",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_iiv1z7iiv1z7iiv1.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_n06wf6n06wf6n06w",
+        "name": "Gemini Generated Image n06wf6n06wf6n06w",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_n06wf6n06wf6n06w.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_n77kl6n77kl6n77k",
+        "name": "Gemini Generated Image n77kl6n77kl6n77k",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_n77kl6n77kl6n77k.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qv65wuqv65wuqv65",
+        "name": "Gemini Generated Image qv65wuqv65wuqv65",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_qv65wuqv65wuqv65.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ulyahgulyahgulya",
+        "name": "Gemini Generated Image ulyahgulyahgulya",
+        "price": 29.9,
+        "nation": "br",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_ulyahgulyahgulya.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_o1hqpho1hqpho1hq",
+        "name": "Gemini Generated Image o1hqpho1hqpho1hq",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_o1hqpho1hqpho1hq.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ltou3qltou3qltou",
+        "name": "Gemini Generated Image ltou3qltou3qltou",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ltou3qltou3qltou.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xzvr2lxzvr2lxzvr",
+        "name": "Gemini Generated Image xzvr2lxzvr2lxzvr",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xzvr2lxzvr2lxzvr.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_13va8n13va8n13va",
+        "name": "Gemini Generated Image 13va8n13va8n13va",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_13va8n13va8n13va.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_l9bhgbl9bhgbl9bh",
+        "name": "Gemini Generated Image l9bhgbl9bhgbl9bh",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_l9bhgbl9bhgbl9bh.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_c5efc8c5efc8c5ef",
+        "name": "Gemini Generated Image c5efc8c5efc8c5ef",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_c5efc8c5efc8c5ef.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_g3o539g3o539g3o5",
+        "name": "Gemini Generated Image g3o539g3o539g3o5",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_g3o539g3o539g3o5.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_n4bf8cn4bf8cn4bf",
+        "name": "Gemini Generated Image n4bf8cn4bf8cn4bf",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_n4bf8cn4bf8cn4bf.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_30s9ly30s9ly30s9",
+        "name": "Gemini Generated Image 30s9ly30s9ly30s9",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_30s9ly30s9ly30s9.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_11aseg11aseg11as",
+        "name": "Gemini Generated Image 11aseg11aseg11as",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_11aseg11aseg11as.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_nspve3nspve3nspv",
+        "name": "Gemini Generated Image nspve3nspve3nspv",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_nspve3nspve3nspv.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_69c1tm69c1tm69c1",
+        "name": "Gemini Generated Image 69c1tm69c1tm69c1",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_69c1tm69c1tm69c1.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_df3s83df3s83df3s",
+        "name": "Gemini Generated Image df3s83df3s83df3s",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_df3s83df3s83df3s.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_nnz06rnnz06rnnz0",
+        "name": "Gemini Generated Image nnz06rnnz06rnnz0",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_nnz06rnnz06rnnz0.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_sarcklsarcklsarc",
+        "name": "Gemini Generated Image sarcklsarcklsarc",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_sarcklsarcklsarc.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "52",
+        "name": "52",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/52.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_lspjlrlspjlrlspj",
+        "name": "Gemini Generated Image lspjlrlspjlrlspj",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_lspjlrlspjlrlspj.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "51",
+        "name": "51",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/51.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_180gey180gey180g",
+        "name": "Gemini Generated Image 180gey180gey180g",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_180gey180gey180g.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "50",
+        "name": "50",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/50.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_vmyem3vmyem3vmye",
+        "name": "Gemini Generated Image vmyem3vmyem3vmye",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_vmyem3vmyem3vmye.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "49",
+        "name": "49",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/49.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_t4a3byt4a3byt4a3",
+        "name": "Gemini Generated Image t4a3byt4a3byt4a3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_t4a3byt4a3byt4a3.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "48",
+        "name": "48",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/48.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_q9ovooq9ovooq9ov",
+        "name": "Gemini Generated Image q9ovooq9ovooq9ov",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_q9ovooq9ovooq9ov.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "47",
+        "name": "47",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/47.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_gt2e5ogt2e5ogt2e",
+        "name": "Gemini Generated Image gt2e5ogt2e5ogt2e",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_gt2e5ogt2e5ogt2e.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "46",
+        "name": "46",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/46.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_eskhlneskhlneskh",
+        "name": "Gemini Generated Image eskhlneskhlneskh",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_eskhlneskhlneskh.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "45",
+        "name": "45",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/45.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_9nd88y9nd88y9nd8",
+        "name": "Gemini Generated Image 9nd88y9nd88y9nd8",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_9nd88y9nd88y9nd8.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "44",
+        "name": "44",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/44.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_glz8zoglz8zoglz8",
+        "name": "Gemini Generated Image glz8zoglz8zoglz8",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_glz8zoglz8zoglz8.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "43",
+        "name": "43",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/43.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_fbkapdfbkapdfbka",
+        "name": "Gemini Generated Image fbkapdfbkapdfbka",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_fbkapdfbkapdfbka.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "42",
+        "name": "42",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/42.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_bgiafsbgiafsbgia",
+        "name": "Gemini Generated Image bgiafsbgiafsbgia",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_bgiafsbgiafsbgia.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "41",
+        "name": "41",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/41.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_iahbl3iahbl3iahb",
+        "name": "Gemini Generated Image iahbl3iahbl3iahb",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_iahbl3iahbl3iahb.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "40",
+        "name": "40",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/40.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_jq2fjfjq2fjfjq2f",
+        "name": "Gemini Generated Image jq2fjfjq2fjfjq2f",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_jq2fjfjq2fjfjq2f.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "39",
+        "name": "39",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/39.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_kzi754kzi754kzi7",
+        "name": "Gemini Generated Image kzi754kzi754kzi7",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_kzi754kzi754kzi7.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "38",
+        "name": "38",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/38.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_oyjul8oyjul8oyju",
+        "name": "Gemini Generated Image oyjul8oyjul8oyju",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_oyjul8oyjul8oyju.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "37 (1)",
+        "name": "37 (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/37 (1).png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_y65dlwy65dlwy65d (1)",
+        "name": "Gemini Generated Image y65dlwy65dlwy65d (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_y65dlwy65dlwy65d (1).png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_y65dlwy65dlwy65d",
+        "name": "Gemini Generated Image y65dlwy65dlwy65d",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_y65dlwy65dlwy65d.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "36",
+        "name": "36",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/36.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_9tombd9tombd9tom",
+        "name": "Gemini Generated Image 9tombd9tombd9tom",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_9tombd9tombd9tom.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "35 (1)",
+        "name": "35 (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/35 (1).png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_5igrr35igrr35igr",
+        "name": "Gemini Generated Image 5igrr35igrr35igr",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_5igrr35igrr35igr.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "34",
+        "name": "34",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/34.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "33",
+        "name": "33",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "br",
+        "status": "active",
+        "priority": 100,
+        "related_products": "",
+        "image": "images/de/33.png",
+        "shortDescription": "Brasilien Retro 1996 WM Trikot | Jersey Vintage",
+        "stock": {
+            "S": 100,
+            "M": 100,
+            "L": 100,
+            "XL": 100,
+            "XXL": 100
+        }
+    },
+    {
+        "id": "gemini_generated_image_1lz77u1lz77u1lz7",
+        "name": "Gemini Generated Image 1lz77u1lz77u1lz7",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_1lz77u1lz77u1lz7.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_4dw9704dw9704dw9",
+        "name": "Gemini Generated Image 4dw9704dw9704dw9",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_4dw9704dw9704dw9.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_7feyvf7feyvf7fey",
+        "name": "Gemini Generated Image 7feyvf7feyvf7fey",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_7feyvf7feyvf7fey.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_7mfzj27mfzj27mfz",
+        "name": "Gemini Generated Image 7mfzj27mfzj27mfz",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_7mfzj27mfzj27mfz.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_50hj7i50hj7i50hj",
+        "name": "Gemini Generated Image 50hj7i50hj7i50hj",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_50hj7i50hj7i50hj.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_688jmn688jmn688j",
+        "name": "Gemini Generated Image 688jmn688jmn688j",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_688jmn688jmn688j.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_aoc6ppaoc6ppaoc6",
+        "name": "Gemini Generated Image aoc6ppaoc6ppaoc6",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_aoc6ppaoc6ppaoc6.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_brlcqqbrlcqqbrlc (1)",
+        "name": "Gemini Generated Image brlcqqbrlcqqbrlc (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_brlcqqbrlcqqbrlc (1).png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_brlcqqbrlcqqbrlc",
+        "name": "Gemini Generated Image brlcqqbrlcqqbrlc",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_brlcqqbrlcqqbrlc.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_dflmuadflmuadflm",
+        "name": "Gemini Generated Image dflmuadflmuadflm",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_dflmuadflmuadflm.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_dhddcidhddcidhdd",
+        "name": "Gemini Generated Image dhddcidhddcidhdd",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_dhddcidhddcidhdd.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_eb8m0meb8m0meb8m",
+        "name": "Gemini Generated Image eb8m0meb8m0meb8m",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_eb8m0meb8m0meb8m.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ew2zi9ew2zi9ew2z (1)",
+        "name": "Gemini Generated Image ew2zi9ew2zi9ew2z (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ew2zi9ew2zi9ew2z (1).png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ew2zi9ew2zi9ew2z",
+        "name": "Gemini Generated Image ew2zi9ew2zi9ew2z",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ew2zi9ew2zi9ew2z.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_f90jjf90jjf90jjf",
+        "name": "Gemini Generated Image f90jjf90jjf90jjf",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_f90jjf90jjf90jjf.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_fd52dqfd52dqfd52",
+        "name": "Gemini Generated Image fd52dqfd52dqfd52",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_fd52dqfd52dqfd52.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_hq809nhq809nhq80",
+        "name": "Gemini Generated Image hq809nhq809nhq80",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_hq809nhq809nhq80.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_iw7izsiw7izsiw7i",
+        "name": "Gemini Generated Image iw7izsiw7izsiw7i",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_iw7izsiw7izsiw7i.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_kfxvl3kfxvl3kfxv",
+        "name": "Gemini Generated Image kfxvl3kfxvl3kfxv",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_kfxvl3kfxvl3kfxv.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_nmtiufnmtiufnmti",
+        "name": "Gemini Generated Image nmtiufnmtiufnmti",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_nmtiufnmtiufnmti.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_pybuigpybuigpybu",
+        "name": "Gemini Generated Image pybuigpybuigpybu",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_pybuigpybuigpybu.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qizyggqizyggqizy",
+        "name": "Gemini Generated Image qizyggqizyggqizy",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_qizyggqizyggqizy.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qlg3jvqlg3jvqlg3",
+        "name": "Gemini Generated Image qlg3jvqlg3jvqlg3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_qlg3jvqlg3jvqlg3.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_re8bikre8bikre8b",
+        "name": "Gemini Generated Image re8bikre8bikre8b",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_re8bikre8bikre8b.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_rhxgqorhxgqorhxg",
+        "name": "Gemini Generated Image rhxgqorhxgqorhxg",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_rhxgqorhxgqorhxg.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_s2p098s2p098s2p0",
+        "name": "Gemini Generated Image s2p098s2p098s2p0",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_s2p098s2p098s2p0.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_s41bhjs41bhjs41b",
+        "name": "Gemini Generated Image s41bhjs41bhjs41b",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_s41bhjs41bhjs41b.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_tsuem3tsuem3tsue",
+        "name": "Gemini Generated Image tsuem3tsuem3tsue",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_tsuem3tsuem3tsue.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ty4ocwty4ocwty4o",
+        "name": "Gemini Generated Image ty4ocwty4ocwty4o",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ty4ocwty4ocwty4o.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_tzw6cdtzw6cdtzw6",
+        "name": "Gemini Generated Image tzw6cdtzw6cdtzw6",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_tzw6cdtzw6cdtzw6.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_u2lewhu2lewhu2le",
+        "name": "Gemini Generated Image u2lewhu2lewhu2le",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_u2lewhu2lewhu2le.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ue2nu5ue2nu5ue2n",
+        "name": "Gemini Generated Image ue2nu5ue2nu5ue2n",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ue2nu5ue2nu5ue2n.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_vbgxwxvbgxwxvbgx",
+        "name": "Gemini Generated Image vbgxwxvbgxwxvbgx",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_vbgxwxvbgxwxvbgx.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_vp60zzvp60zzvp60",
+        "name": "Gemini Generated Image vp60zzvp60zzvp60",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_vp60zzvp60zzvp60.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_wi615wwi615wwi61",
+        "name": "Gemini Generated Image wi615wwi615wwi61",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_wi615wwi615wwi61.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xfgi68xfgi68xfgi",
+        "name": "Gemini Generated Image xfgi68xfgi68xfgi",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xfgi68xfgi68xfgi.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_yoqsy3yoqsy3yoqs",
+        "name": "Gemini Generated Image yoqsy3yoqsy3yoqs",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_yoqsy3yoqsy3yoqs.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_yt367jyt367jyt36 (1)",
+        "name": "Gemini Generated Image yt367jyt367jyt36 (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_yt367jyt367jyt36 (1).png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_yt367jyt367jyt36",
+        "name": "Gemini Generated Image yt367jyt367jyt36",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "mx",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_yt367jyt367jyt36.png",
+        "shortDescription": "Mexico Tshirt Retro Jersey ",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_3vkdv03vkdv03vkd",
+        "name": "Gemini Generated Image 3vkdv03vkdv03vkd",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_3vkdv03vkdv03vkd.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_5wg5ow5wg5ow5wg5",
+        "name": "Gemini Generated Image 5wg5ow5wg5ow5wg5",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_5wg5ow5wg5ow5wg5.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_7g68v7g68v7g68v7",
+        "name": "Gemini Generated Image 7g68v7g68v7g68v7",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_7g68v7g68v7g68v7.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_8wkxzc8wkxzc8wkx",
+        "name": "Gemini Generated Image 8wkxzc8wkxzc8wkx",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_8wkxzc8wkxzc8wkx.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_9cdecc9cdecc9cde",
+        "name": "Gemini Generated Image 9cdecc9cdecc9cde",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_9cdecc9cdecc9cde.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_55a91q55a91q55a9",
+        "name": "Gemini Generated Image 55a91q55a91q55a9",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_55a91q55a91q55a9.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_a44lc6a44lc6a44l",
+        "name": "Gemini Generated Image a44lc6a44lc6a44l",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_a44lc6a44lc6a44l.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_b2owy4b2owy4b2ow",
+        "name": "Gemini Generated Image b2owy4b2owy4b2ow",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_b2owy4b2owy4b2ow.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ccnsv1ccnsv1ccns",
+        "name": "Gemini Generated Image ccnsv1ccnsv1ccns",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ccnsv1ccnsv1ccns.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_cu6q9ecu6q9ecu6q",
+        "name": "Gemini Generated Image cu6q9ecu6q9ecu6q",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_cu6q9ecu6q9ecu6q.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_eajcuheajcuheajc",
+        "name": "Gemini Generated Image eajcuheajcuheajc",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_eajcuheajcuheajc.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ecgz87ecgz87ecgz",
+        "name": "Gemini Generated Image ecgz87ecgz87ecgz",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ecgz87ecgz87ecgz.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_g4qpjwg4qpjwg4qp",
+        "name": "Gemini Generated Image g4qpjwg4qpjwg4qp",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_g4qpjwg4qpjwg4qp.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_i0kqeei0kqeei0kq",
+        "name": "Gemini Generated Image i0kqeei0kqeei0kq",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_i0kqeei0kqeei0kq.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ij9787ij9787ij97",
+        "name": "Gemini Generated Image ij9787ij9787ij97",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ij9787ij9787ij97.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_jbyzq5jbyzq5jbyz (1)",
+        "name": "Gemini Generated Image jbyzq5jbyzq5jbyz (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_jbyzq5jbyzq5jbyz (1).png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_jbyzq5jbyzq5jbyz",
+        "name": "Gemini Generated Image jbyzq5jbyzq5jbyz",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_jbyzq5jbyzq5jbyz.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_jlm3s4jlm3s4jlm3",
+        "name": "Gemini Generated Image jlm3s4jlm3s4jlm3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_jlm3s4jlm3s4jlm3.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_llv2ntllv2ntllv2",
+        "name": "Gemini Generated Image llv2ntllv2ntllv2",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_llv2ntllv2ntllv2.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_m03erjm03erjm03e",
+        "name": "Gemini Generated Image m03erjm03erjm03e",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_m03erjm03erjm03e.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_og6xnsog6xnsog6x",
+        "name": "Gemini Generated Image og6xnsog6xnsog6x",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_og6xnsog6xnsog6x.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_our79bour79bour7",
+        "name": "Gemini Generated Image our79bour79bour7",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_our79bour79bour7.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_pfa394pfa394pfa3",
+        "name": "Gemini Generated Image pfa394pfa394pfa3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_pfa394pfa394pfa3.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_q9nt67q9nt67q9nt",
+        "name": "Gemini Generated Image q9nt67q9nt67q9nt",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_q9nt67q9nt67q9nt.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_quknhsquknhsqukn",
+        "name": "Gemini Generated Image quknhsquknhsqukn",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_quknhsquknhsqukn.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_t352a4t352a4t352",
+        "name": "Gemini Generated Image t352a4t352a4t352",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_t352a4t352a4t352.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_u9gm6su9gm6su9gm",
+        "name": "Gemini Generated Image u9gm6su9gm6su9gm",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_u9gm6su9gm6su9gm.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_uaxtoduaxtoduaxt",
+        "name": "Gemini Generated Image uaxtoduaxtoduaxt",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_uaxtoduaxtoduaxt.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_uo8yw8uo8yw8uo8y",
+        "name": "Gemini Generated Image uo8yw8uo8yw8uo8y",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_uo8yw8uo8yw8uo8y.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_vktc9cvktc9cvktc",
+        "name": "Gemini Generated Image vktc9cvktc9cvktc",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_vktc9cvktc9cvktc.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_vm886nvm886nvm88",
+        "name": "Gemini Generated Image vm886nvm886nvm88",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_vm886nvm886nvm88.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_w7pwm6w7pwm6w7pw",
+        "name": "Gemini Generated Image w7pwm6w7pwm6w7pw",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_w7pwm6w7pwm6w7pw.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xbiwpzxbiwpzxbiw",
+        "name": "Gemini Generated Image xbiwpzxbiwpzxbiw",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xbiwpzxbiwpzxbiw.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xdzbpzxdzbpzxdzb",
+        "name": "Gemini Generated Image xdzbpzxdzbpzxdzb",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xdzbpzxdzbpzxdzb.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xxyws5xxyws5xxyw (1)",
+        "name": "Gemini Generated Image xxyws5xxyws5xxyw (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xxyws5xxyws5xxyw (1).png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xxyws5xxyws5xxyw",
+        "name": "Gemini Generated Image xxyws5xxyws5xxyw",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xxyws5xxyws5xxyw.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_y8dta6y8dta6y8dt",
+        "name": "Gemini Generated Image y8dta6y8dta6y8dt",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "krd",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_y8dta6y8dta6y8dt.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_bihaz6bihaz6biha",
+        "name": "Gemini Generated Image bihaz6bihaz6biha",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_bihaz6bihaz6biha.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_52s3qp52s3qp52s3",
+        "name": "Gemini Generated Image 52s3qp52s3qp52s3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_52s3qp52s3qp52s3.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_gj4159gj4159gj41",
+        "name": "Gemini Generated Image gj4159gj4159gj41",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_gj4159gj4159gj41.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_1r12811r12811r12",
+        "name": "Gemini Generated Image 1r12811r12811r12",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_1r12811r12811r12.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_cb6yt3cb6yt3cb6y",
+        "name": "Gemini Generated Image cb6yt3cb6yt3cb6y",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_cb6yt3cb6yt3cb6y.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qd7dlxqd7dlxqd7d",
+        "name": "Gemini Generated Image qd7dlxqd7dlxqd7d",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_qd7dlxqd7dlxqd7d.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_wtwqstwtwqstwtwq",
+        "name": "Gemini Generated Image wtwqstwtwqstwtwq",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_wtwqstwtwqstwtwq.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_sf7em0sf7em0sf7e",
+        "name": "Gemini Generated Image sf7em0sf7em0sf7e",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_sf7em0sf7em0sf7e.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_6krxwt6krxwt6krx",
+        "name": "Gemini Generated Image 6krxwt6krxwt6krx",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_6krxwt6krxwt6krx.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_27x7g527x7g527x7",
+        "name": "Gemini Generated Image 27x7g527x7g527x7",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_27x7g527x7g527x7.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_b4ilkob4ilkob4il",
+        "name": "Gemini Generated Image b4ilkob4ilkob4il",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_b4ilkob4ilkob4il.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_6avn8o6avn8o6avn",
+        "name": "Gemini Generated Image 6avn8o6avn8o6avn",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_6avn8o6avn8o6avn.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_q7i180q7i180q7i1",
+        "name": "Gemini Generated Image q7i180q7i180q7i1",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_q7i180q7i180q7i1.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_f7pvvsf7pvvsf7pv",
+        "name": "Gemini Generated Image f7pvvsf7pvvsf7pv",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_f7pvvsf7pvvsf7pv.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_27c9qs27c9qs27c9",
+        "name": "Gemini Generated Image 27c9qs27c9qs27c9",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_27c9qs27c9qs27c9.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_5mibuh5mibuh5mib",
+        "name": "Gemini Generated Image 5mibuh5mibuh5mib",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_5mibuh5mibuh5mib.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_r94xegr94xegr94x",
+        "name": "Gemini Generated Image r94xegr94xegr94x",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_r94xegr94xegr94x.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_kreulkreulkreulk",
+        "name": "Gemini Generated Image kreulkreulkreulk",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_kreulkreulkreulk.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_gooovagooovagooo",
+        "name": "Gemini Generated Image gooovagooovagooo",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_gooovagooovagooo.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_v7rwhv7rwhv7rwhv",
+        "name": "Gemini Generated Image v7rwhv7rwhv7rwhv",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_v7rwhv7rwhv7rwhv.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_w4ni69w4ni69w4ni",
+        "name": "Gemini Generated Image w4ni69w4ni69w4ni",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_w4ni69w4ni69w4ni.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_gaa2q3gaa2q3gaa2",
+        "name": "Gemini Generated Image gaa2q3gaa2q3gaa2",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_gaa2q3gaa2q3gaa2.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_tlox1ntlox1ntlox",
+        "name": "Gemini Generated Image tlox1ntlox1ntlox",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_tlox1ntlox1ntlox.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_c5eavac5eavac5ea",
+        "name": "Gemini Generated Image c5eavac5eavac5ea",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_c5eavac5eavac5ea.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_xqjkzdxqjkzdxqjk",
+        "name": "Gemini Generated Image xqjkzdxqjkzdxqjk",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_xqjkzdxqjkzdxqjk.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ppm0ksppm0ksppm0",
+        "name": "Gemini Generated Image ppm0ksppm0ksppm0",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ppm0ksppm0ksppm0.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_50gf0i50gf0i50gf",
+        "name": "Gemini Generated Image 50gf0i50gf0i50gf",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_50gf0i50gf0i50gf.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_seo6zseo6zseo6zs",
+        "name": "Gemini Generated Image seo6zseo6zseo6zs",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_seo6zseo6zseo6zs.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_d9stscd9stscd9st",
+        "name": "Gemini Generated Image d9stscd9stscd9st",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_d9stscd9stscd9st.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_7pawmi7pawmi7paw",
+        "name": "Gemini Generated Image 7pawmi7pawmi7paw",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_7pawmi7pawmi7paw.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_jccwpujccwpujccw",
+        "name": "Gemini Generated Image jccwpujccwpujccw",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_jccwpujccwpujccw.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_85h0p685h0p685h0",
+        "name": "Gemini Generated Image 85h0p685h0p685h0",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_85h0p685h0p685h0.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ush5wmush5wmush5",
+        "name": "Gemini Generated Image ush5wmush5wmush5",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_ush5wmush5wmush5.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_61btqk61btqk61bt",
+        "name": "Gemini Generated Image 61btqk61btqk61bt",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_61btqk61btqk61bt.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_y2cdi5y2cdi5y2cd",
+        "name": "Gemini Generated Image y2cdi5y2cdi5y2cd",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_y2cdi5y2cdi5y2cd.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_pw65vbpw65vbpw65",
+        "name": "Gemini Generated Image pw65vbpw65vbpw65",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_pw65vbpw65vbpw65.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_3yr3fw3yr3fw3yr3 (1)",
+        "name": "Gemini Generated Image 3yr3fw3yr3fw3yr3 (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_3yr3fw3yr3fw3yr3 (1).png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_l0ubmul0ubmul0ub",
+        "name": "Gemini Generated Image l0ubmul0ubmul0ub",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_l0ubmul0ubmul0ub.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_3yr3fw3yr3fw3yr3",
+        "name": "Gemini Generated Image 3yr3fw3yr3fw3yr3",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_3yr3fw3yr3fw3yr3.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_f6cj3mf6cj3mf6cj",
+        "name": "Gemini Generated Image f6cj3mf6cj3mf6cj",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_f6cj3mf6cj3mf6cj.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_d0tc74d0tc74d0tc",
+        "name": "Gemini Generated Image d0tc74d0tc74d0tc",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_d0tc74d0tc74d0tc.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_5p525p525p525p52",
+        "name": "Gemini Generated Image 5p525p525p525p52",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_5p525p525p525p52.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qbwwhcqbwwhcqbww (1)",
+        "name": "Gemini Generated Image qbwwhcqbwwhcqbww (1)",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_qbwwhcqbwwhcqbww (1).png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_qbwwhcqbwwhcqbww",
+        "name": "Gemini Generated Image qbwwhcqbwwhcqbww",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_qbwwhcqbwwhcqbww.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_6qkxxc6qkxxc6qkx",
+        "name": "Gemini Generated Image 6qkxxc6qkxxc6qkx",
+        "price": 29.9,
+        "type": "shirt",
+        "nation": "fr",
+        "status": "active",
+        "priority": 0,
+        "related_products": "",
+        "image": "images/de/Gemini_Generated_Image_6qkxxc6qkxxc6qkx.png",
+        "shortDescription": "",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "1 (6)",
+        "name": "1 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/1 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "2 (6)",
+        "name": "2 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/2 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "3 (6)",
+        "name": "3 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/3 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "4 (5)",
+        "name": "4 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/4 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "5 (7)",
+        "name": "5 (7)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/5 (7).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "6 (7)",
+        "name": "6 (7)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/6 (7).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "7 (6)",
+        "name": "7 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/7 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "8 (6)",
+        "name": "8 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/8 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "9 (5)",
+        "name": "9 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/9 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "10 (5)",
+        "name": "10 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/10 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "11 (5)",
+        "name": "11 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/11 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "12 (5)",
+        "name": "12 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/12 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "13 (6)",
+        "name": "13 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/13 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "13 (7)",
+        "name": "13 (7)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/13 (7).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "14 (5)",
+        "name": "14 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/14 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "15 (12)",
+        "name": "15 (12)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/15 (12).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "16 (7)",
+        "name": "16 (7)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/16 (7).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "17 (6)",
+        "name": "17 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/17 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "18 (8)",
+        "name": "18 (8)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/18 (8).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "19 (6)",
+        "name": "19 (6)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/19 (6).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "20 (5)",
+        "name": "20 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/20 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "21 (5)",
+        "name": "21 (5)",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/21 (5).png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_3c5p0t3c5p0t3c5p",
+        "name": "Gemini Generated Image 3c5p0t3c5p0t3c5p",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_3c5p0t3c5p0t3c5p.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_5jgmsa5jgmsa5jgm",
+        "name": "Gemini Generated Image 5jgmsa5jgmsa5jgm",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_5jgmsa5jgmsa5jgm.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_5ojw4m5ojw4m5ojw",
+        "name": "Gemini Generated Image 5ojw4m5ojw4m5ojw",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_5ojw4m5ojw4m5ojw.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_17ud0m17ud0m17ud",
+        "name": "Gemini Generated Image 17ud0m17ud0m17ud",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_17ud0m17ud0m17ud.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_607um8607um8607u",
+        "name": "Gemini Generated Image 607um8607um8607u",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_607um8607um8607u.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_az7csbaz7csbaz7c",
+        "name": "Gemini Generated Image az7csbaz7csbaz7c",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_az7csbaz7csbaz7c.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_bg8vt8bg8vt8bg8v",
+        "name": "Gemini Generated Image bg8vt8bg8vt8bg8v",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_bg8vt8bg8vt8bg8v.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ckznxgckznxgckzn",
+        "name": "Gemini Generated Image ckznxgckznxgckzn",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_ckznxgckznxgckzn.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_d52f7vd52f7vd52f",
+        "name": "Gemini Generated Image d52f7vd52f7vd52f",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_d52f7vd52f7vd52f.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_e78w35e78w35e78w",
+        "name": "Gemini Generated Image e78w35e78w35e78w",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_e78w35e78w35e78w.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_eycs5deycs5deycs",
+        "name": "Gemini Generated Image eycs5deycs5deycs",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_eycs5deycs5deycs.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_f6ll8tf6ll8tf6ll",
+        "name": "Gemini Generated Image f6ll8tf6ll8tf6ll",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_f6ll8tf6ll8tf6ll.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_j9rdnaj9rdnaj9rd",
+        "name": "Gemini Generated Image j9rdnaj9rdnaj9rd",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_j9rdnaj9rdnaj9rd.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_lgm3hvlgm3hvlgm3",
+        "name": "Gemini Generated Image lgm3hvlgm3hvlgm3",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_lgm3hvlgm3hvlgm3.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_oy4y1ooy4y1ooy4y",
+        "name": "Gemini Generated Image oy4y1ooy4y1ooy4y",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_oy4y1ooy4y1ooy4y.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_ppwesyppwesyppwe",
+        "name": "Gemini Generated Image ppwesyppwesyppwe",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_ppwesyppwesyppwe.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_px4liopx4liopx4l",
+        "name": "Gemini Generated Image px4liopx4liopx4l",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_px4liopx4liopx4l.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_q3i7i9q3i7i9q3i7",
+        "name": "Gemini Generated Image q3i7i9q3i7i9q3i7",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_q3i7i9q3i7i9q3i7.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_vgi5xfvgi5xfvgi5",
+        "name": "Gemini Generated Image vgi5xfvgi5xfvgi5",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_vgi5xfvgi5xfvgi5.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    },
+    {
+        "id": "gemini_generated_image_z49hwyz49hwyz49h",
+        "name": "Gemini Generated Image z49hwyz49hwyz49h",
+        "price": 29.9,
+        "nation": "jp",
+        "type": "shirt",
+        "priority": 0,
+        "image": "images/de/Gemini_Generated_Image_z49hwyz49hwyz49h.png",
+        "related_products": "",
+        "shortDescription": "",
+        "status": "active",
+        "stock": {
+            "S": 10,
+            "M": 10,
+            "L": 10,
+            "XL": 10,
+            "XXL": 10
+        }
+    }
+]
