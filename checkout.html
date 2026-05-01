@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 
 <head>
@@ -6,7 +6,7 @@
 	<title>Kasse | WORLD CUP SHOP</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Sicher bezahlen im WORLD CUP SHOP – gib deine Lieferadresse ein und wähle deine Zahlungsart.">
+	<meta name="description" content="Sicher bezahlen im WORLD CUP SHOP � gib deine Lieferadresse ein und w�hle deine Zahlungsart.">
 	<meta property="og:title" content="Kasse | WORLD CUP SHOP">
 	<meta property="og:description" content="Sicher bezahlen im WORLD CUP SHOP.">
 	<meta property="og:image" content="images/icons/logo-custom.png2.png">
@@ -30,10 +30,10 @@
 	<script src="https://js.stripe.com/v3/"></script>
 
 	<style>
-		/* ── Page base ── */
+		/* -- Page base -- */
 		body { background: #000; color: #fff; }
 
-		/* ── Breadcrumb ── */
+		/* -- Breadcrumb -- */
 		.checkout-breadcrumb {
 			display: flex;
 			align-items: center;
@@ -48,7 +48,7 @@
 		.checkout-breadcrumb .sep { color: #444; }
 		.checkout-breadcrumb .active { color: #fff; font-family: Poppins-Medium; }
 
-		/* ── Section headings ── */
+		/* -- Section headings -- */
 		.checkout-section-title {
 			font-family: Poppins-Bold;
 			font-size: 13px;
@@ -60,7 +60,7 @@
 			border-bottom: 1px solid #222;
 		}
 
-		/* ── Form fields ── */
+		/* -- Form fields -- */
 		.checkout-field {
 			margin-bottom: 14px;
 		}
@@ -97,11 +97,11 @@
 		.checkout-field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 40px; }
 		.checkout-field select option { background: #111; color: #fff; }
 
-		/* ── Inline field pair ── */
+		/* -- Inline field pair -- */
 		.field-row { display: flex; gap: 12px; }
 		.field-row .checkout-field { flex: 1; }
 
-		/* ── Payment options ── */
+		/* -- Payment options -- */
 		.payment-option {
 			display: flex;
 			align-items: center;
@@ -149,7 +149,7 @@
 		.payment-logos { display: flex; gap: 6px; align-items: center; }
 		.payment-logos img { height: 22px; opacity: .8; }
 
-		/* ── Card fields panel ── */
+		/* -- Card fields panel -- */
 		#card-fields-panel { display: none; margin-top: 4px; margin-bottom: 6px; }
 		#card-fields-panel.visible { display: block; }
 		.card-panel-inner {
@@ -170,7 +170,7 @@
 			letter-spacing: 1px;
 		}
 
-		/* ── PayPal panel ── */
+		/* -- PayPal panel -- */
 		#paypal-panel { display: none; margin-top: 4px; margin-bottom: 6px; }
 		#paypal-panel.visible { display: block; }
 		.paypal-info {
@@ -187,7 +187,7 @@
 		}
 		.paypal-info i { font-size: 22px; }
 
-		/* ── Bank transfer panel ── */
+		/* -- Bank transfer panel -- */
 		#bank-panel { display: none; margin-top: 4px; margin-bottom: 6px; }
 		#bank-panel.visible { display: block; }
 		.bank-info {
@@ -204,7 +204,7 @@
 		.bank-info td:first-child { color: #666; font-size: 12px; width: 130px; }
 		.bank-info td:last-child { color: #fff; font-family: Poppins-Medium; }
 
-		/* ── Order summary sidebar ── */
+		/* -- Order summary sidebar -- */
 		.order-summary-box {
 			background: #0d0d0d;
 			border: 1px solid #1e1e1e;
@@ -277,7 +277,7 @@
 		.order-total-row.grand span:last-child { font-size: 18px; }
 		.order-discount-row { color: #5cb85c; }
 
-		/* ── Submit button ── */
+		/* -- Submit button -- */
 		.btn-place-order {
 			width: 100%;
 			padding: 16px;
@@ -295,7 +295,7 @@
 		}
 		.btn-place-order:hover { background: #e0e0e0; }
 
-		/* ── Security badge ── */
+		/* -- Security badge -- */
 		.secure-badge {
 			display: flex;
 			align-items: center;
@@ -308,7 +308,7 @@
 		}
 		.secure-badge i { font-size: 13px; color: #4caf50; }
 
-		/* ── Error state ── */
+		/* -- Error state -- */
 		.checkout-field input.error,
 		.checkout-field select.error { border-color: #c0392b !important; }
 		.field-error-msg {
@@ -321,7 +321,7 @@
 		.checkout-field input.error + .field-error-msg,
 		.checkout-field select.error + .field-error-msg { display: block; }
 
-		/* ── Success overlay ── */
+		/* -- Success overlay -- */
 		#order-success-overlay {
 			display: none;
 			position: fixed;
@@ -374,7 +374,7 @@
 		}
 		.success-order-nr span { color: #fff; font-family: Poppins-Bold; }
 
-		/* ── Responsive ── */
+		/* -- Responsive -- */
 		@media (max-width: 767px) {
 			.field-row { flex-direction: column; gap: 0; }
 			.order-summary-box { margin-top: 32px; position: static; }
@@ -386,16 +386,16 @@
 
 	<h1 style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;">Kasse</h1>
 
-	<!-- ═══════════ HEADER ═══════════ -->
+	<!-- ----------- HEADER ----------- -->
 	<header class="header-v4">
 		<div class="container-menu-desktop">
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container"
 					style="justify-content:space-between;font-family:Poppins-Medium;">
-					<div class="left-top-bar" style="color:white;font-size:11px;">Höchste Qualität seit 2018</div>
+					<div class="left-top-bar" style="color:white;font-size:11px;">H�chste Qualit�t seit 2018</div>
 					<div class="center-top-bar" style="color:white;font-size:11px;">Internationaler Versand</div>
 					<div class="right-top-bar flex-w h-full">
-						<div class="flex-c-m trans-04 p-lr-25" style="color:white;border:none;font-size:11px;">Rückgabe leicht gemacht</div>
+						<div class="flex-c-m trans-04 p-lr-25" style="color:white;border:none;font-size:11px;">R�ckgabe leicht gemacht</div>
 					</div>
 				</div>
 			</div>
@@ -430,7 +430,7 @@
 				.ticker-track .ticker-dot { padding:0;opacity:.5 }
 				@keyframes ticker-scroll { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
 			</style>
-			<div class="ticker-track"><span>International Shipping</span><span class="ticker-dot">·</span><span>Easy Returns</span><span class="ticker-dot">·</span><span>Höchste Qualität seit 2018</span><span class="ticker-dot">·</span><span>Kostenlose Rückgabe</span><span class="ticker-dot">·</span><span>International Shipping</span><span class="ticker-dot">·</span><span>Easy Returns</span><span class="ticker-dot">·</span><span>Höchste Qualität seit 2018</span><span class="ticker-dot">·</span><span>Kostenlose Rückgabe</span><span class="ticker-dot">·</span></div>
+			<div class="ticker-track"><span>International Shipping</span><span class="ticker-dot">�</span><span>Easy Returns</span><span class="ticker-dot">�</span><span>H�chste Qualit�t seit 2018</span><span class="ticker-dot">�</span><span>Kostenlose R�ckgabe</span><span class="ticker-dot">�</span><span>International Shipping</span><span class="ticker-dot">�</span><span>Easy Returns</span><span class="ticker-dot">�</span><span>H�chste Qualit�t seit 2018</span><span class="ticker-dot">�</span><span>Kostenlose R�ckgabe</span><span class="ticker-dot">�</span></div>
 		</div>
 
 		<!-- Mobile header -->
@@ -482,7 +482,7 @@
 				</div>
 				<div style="margin-top:25px;display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
 					<span style="font-family:Poppins-Bold;color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:1px;">Highlights:</span>
-					<a href="nation.html?nation=tr" style="font-family:Poppins-Medium;color:#888;font-size:13px;text-transform:uppercase;letter-spacing:1px;text-decoration:none;">TÜRKEI</a>
+					<a href="nation.html?nation=tr" style="font-family:Poppins-Medium;color:#888;font-size:13px;text-transform:uppercase;letter-spacing:1px;text-decoration:none;">T�RKEI</a>
 					<a href="nation.html?nation=de" style="font-family:Poppins-Medium;color:#888;font-size:13px;text-transform:uppercase;letter-spacing:1px;text-decoration:none;">DEUTSCHLAND</a>
 					<a href="nation.html?nation=br" style="font-family:Poppins-Medium;color:#888;font-size:13px;text-transform:uppercase;letter-spacing:1px;text-decoration:none;">BRASILIEN</a>
 				</div>
@@ -490,7 +490,7 @@
 		</div>
 	</header>
 
-	<!-- ═══════════ CART DRAWER ═══════════ -->
+	<!-- ----------- CART DRAWER ----------- -->
 	<div class="wrap-header-cart js-panel-cart">
 		<div class="s-full js-hide-cart"></div>
 		<div class="header-cart flex-col-l p-l-65 p-r-25">
@@ -502,7 +502,7 @@
 				<ul class="header-cart-wrapitem w-full"></ul>
 				<div class="w-full flex-sb-m flex-w p-t-20 p-b-10 bor9">
 					<span class="stext-108 cl8 p-r-10">Zwischensumme</span>
-					<span class="mtext-107 cl2 js-cart-total-price">€0.00</span>
+					<span class="mtext-107 cl2 js-cart-total-price">�0.00</span>
 				</div>
 				<div class="w-full flex-c-m flex-w p-t-10">
 					<a href="shoping-cart.html" class="flex-c-m stext-101 cl2 size-107 bg8 bor9 hov-btn3 p-lr-15 trans-04 m-r-8 m-b-10">Warenkorb</a>
@@ -512,22 +512,22 @@
 		</div>
 	</div>
 
-	<!-- ═══════════ MAIN CONTENT ═══════════ -->
+	<!-- ----------- MAIN CONTENT ----------- -->
 	<div style="padding-top: 160px; padding-bottom: 60px; min-height: 80vh;">
 		<div class="container">
 
 			<!-- Breadcrumb -->
 			<div class="checkout-breadcrumb">
 				<a href="index.html">Shop</a>
-				<span class="sep">›</span>
+				<span class="sep">�</span>
 				<a href="shoping-cart.html">Warenkorb</a>
-				<span class="sep">›</span>
+				<span class="sep">�</span>
 				<span class="active">Kasse</span>
 			</div>
 
 			<div class="row">
 
-				<!-- ── LEFT: Form ── -->
+				<!-- -- LEFT: Form -- -->
 				<div class="col-lg-7 col-12" style="padding-right: 30px;">
 
 					<!-- Kontakt -->
@@ -536,7 +536,7 @@
 						<div class="checkout-field">
 							<label>E-Mail-Adresse *</label>
 							<input type="email" id="field-email" placeholder="max@beispiel.de" autocomplete="email">
-							<div class="field-error-msg">Bitte gültige E-Mail eingeben.</div>
+							<div class="field-error-msg">Bitte g�ltige E-Mail eingeben.</div>
 						</div>
 					</div>
 
@@ -547,22 +547,22 @@
 						<div class="checkout-field">
 							<label>Land / Region</label>
 							<select id="field-country" autocomplete="country">
-								<option value="">– Land auswählen –</option>
-								<option value="DE" selected>🇩🇪 Deutschland</option>
-								<option value="AT">🇦🇹 Österreich</option>
-								<option value="CH">🇨🇭 Schweiz</option>
-								<option value="TR">🇹🇷 Türkei</option>
-								<option value="NL">🇳🇱 Niederlande</option>
-								<option value="BE">🇧🇪 Belgien</option>
-								<option value="FR">🇫🇷 Frankreich</option>
-								<option value="IT">🇮🇹 Italien</option>
-								<option value="ES">🇪🇸 Spanien</option>
-								<option value="PL">🇵🇱 Polen</option>
-								<option value="GB">🇬🇧 Vereinigtes Königreich</option>
-								<option value="US">🇺🇸 USA</option>
+								<option value="">� Land ausw�hlen �</option>
+								<option value="DE" selected>???? Deutschland</option>
+								<option value="AT">???? �sterreich</option>
+								<option value="CH">???? Schweiz</option>
+								<option value="TR">???? T�rkei</option>
+								<option value="NL">???? Niederlande</option>
+								<option value="BE">???? Belgien</option>
+								<option value="FR">???? Frankreich</option>
+								<option value="IT">???? Italien</option>
+								<option value="ES">???? Spanien</option>
+								<option value="PL">???? Polen</option>
+								<option value="GB">???? Vereinigtes K�nigreich</option>
+								<option value="US">???? USA</option>
 								<option value="OTHER">Anderes Land</option>
 							</select>
-							<div class="field-error-msg">Bitte Land auswählen.</div>
+							<div class="field-error-msg">Bitte Land ausw�hlen.</div>
 						</div>
 
 						<div class="field-row">
@@ -585,7 +585,7 @@
 
 						<div class="checkout-field" style="position:relative;">
 							<label>Adresse *</label>
-							<input type="text" id="field-street" placeholder="Musterstraße 1" autocomplete="off" data-lpignore="true" data-1p-ignore="true" data-bwignore="true" data-form-type="other" readonly onfocus="this.removeAttribute('readonly')">
+							<input type="text" id="field-street" placeholder="Musterstra�e 1" autocomplete="off" data-lpignore="true" data-1p-ignore="true" data-bwignore="true" data-form-type="other" readonly onfocus="this.removeAttribute('readonly')">
 							<div class="field-error-msg">Bitte Adresse eingeben.</div>
 						</div>
 
@@ -610,7 +610,7 @@
 
 						<label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-family:Poppins-Regular;font-size:13px;color:#888;margin-top:6px;margin-bottom:4px;">
 							<input type="checkbox" id="save-info" style="margin-top:3px;flex-shrink:0;width:15px;height:15px;accent-color:#fff;">
-							<span>Meine Informationen speichern und nächstes Mal schneller bezahlen</span>
+							<span>Meine Informationen speichern und n�chstes Mal schneller bezahlen</span>
 						</label>
 					</div>
 
@@ -656,7 +656,7 @@
 								<div class="checkout-field">
 									<label>Kartennummer *</label>
 									<input type="text" id="field-card-number" placeholder="0000 0000 0000 0000" autocomplete="cc-number" maxlength="19" inputmode="numeric">
-									<div class="field-error-msg">Bitte gültige Kartennummer eingeben.</div>
+									<div class="field-error-msg">Bitte g�ltige Kartennummer eingeben.</div>
 								</div>
 								<div class="field-row">
 									<div class="checkout-field">
@@ -666,7 +666,7 @@
 									</div>
 									<div class="checkout-field">
 										<label>CVV *</label>
-										<input type="text" id="field-card-cvv" placeholder="•••" autocomplete="cc-csc" maxlength="4" inputmode="numeric">
+										<input type="text" id="field-card-cvv" placeholder="���" autocomplete="cc-csc" maxlength="4" inputmode="numeric">
 										<div class="field-error-msg">Bitte CVV eingeben.</div>
 									</div>
 								</div>
@@ -677,14 +677,14 @@
 							<input type="radio" name="payment" value="bank">
 							<div class="payment-radio-dot"></div>
 							<i class="fa fa-university payment-icon"></i>
-							<span class="payment-label">Banküberweisung (SEPA)</span>
+							<span class="payment-label">Bank�berweisung (SEPA)</span>
 						</div>
 
 						<div id="bank-panel">
 							<div class="bank-info">
-								<p style="margin:0 0 12px 0;color:#aaa;">Überweise den Betrag auf folgendes Konto. Deine Bestellung wird bearbeitet, sobald die Zahlung eingegangen ist.</p>
+								<p style="margin:0 0 12px 0;color:#aaa;">�berweise den Betrag auf folgendes Konto. Deine Bestellung wird bearbeitet, sobald die Zahlung eingegangen ist.</p>
 								<table>
-									<tr><td>Empfänger</td><td>WORLD CUP SHOP GmbH</td></tr>
+									<tr><td>Empf�nger</td><td>WORLD CUP SHOP GmbH</td></tr>
 									<tr><td>IBAN</td><td>DE89 3704 0044 0532 0130 00</td></tr>
 									<tr><td>BIC</td><td>COBADEFFXXX</td></tr>
 									<tr><td>Verwendungszweck</td><td id="bank-reference">Wird nach Bestellung angezeigt</td></tr>
@@ -699,21 +699,21 @@
 					<div class="d-lg-none">
 						<label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-family:Poppins-Regular;font-size:13px;color:#888;margin-bottom:20px;">
 							<input type="checkbox" id="terms-check-mobile" style="margin-top:2px;flex-shrink:0;width:16px;height:16px;accent-color:#fff;">
-							<span>Ich akzeptiere die <a href="#" style="color:#fff;">AGB</a> und die <a href="#" style="color:#fff;">Datenschutzerklärung</a>.</span>
+							<span>Ich akzeptiere die <a href="#" style="color:#fff;">AGB</a> und die <a href="#" style="color:#fff;">Datenschutzerkl�rung</a>.</span>
 						</label>
 						<button class="btn-place-order" onclick="submitOrder(event)">Bestellung aufgeben</button>
 						<div class="secure-badge">
 							<i class="zmdi zmdi-lock"></i>
-							<span>SSL-gesicherte Übertragung</span>
+							<span>SSL-gesicherte �bertragung</span>
 						</div>
 					</div>
 
 				</div><!-- /col left -->
 
-				<!-- ── RIGHT: Order summary ── -->
+				<!-- -- RIGHT: Order summary -- -->
 				<div class="col-lg-5 col-12">
 					<div class="order-summary-box">
-						<p class="checkout-section-title" style="margin-bottom:14px;">Bestellübersicht</p>
+						<p class="checkout-section-title" style="margin-bottom:14px;">Bestell�bersicht</p>
 
 						<!-- Items from cart -->
 						<div id="checkout-items-list">
@@ -724,11 +724,11 @@
 						<div class="order-totals">
 							<div class="order-total-row">
 								<span>Zwischensumme</span>
-								<span id="checkout-subtotal">€0.00</span>
+								<span id="checkout-subtotal">�0.00</span>
 							</div>
 							<div class="order-total-row order-discount-row" id="checkout-discount-row" style="display:none;">
 								<span>Rabatt</span>
-								<span id="checkout-discount">-€0.00</span>
+								<span id="checkout-discount">-�0.00</span>
 							</div>
 							<div class="order-total-row">
 								<span>Versand</span>
@@ -736,7 +736,7 @@
 							</div>
 							<div class="order-total-row grand">
 								<span>Gesamt</span>
-								<span id="checkout-total">€0.00</span>
+								<span id="checkout-total">�0.00</span>
 							</div>
 						</div>
 
@@ -744,12 +744,12 @@
 						<div class="d-none d-lg-block">
 							<label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;font-family:Poppins-Regular;font-size:13px;color:#888;margin-top:18px;">
 								<input type="checkbox" id="terms-check" style="margin-top:2px;flex-shrink:0;width:16px;height:16px;accent-color:#fff;">
-								<span>Ich akzeptiere die <a href="#" style="color:#fff;">AGB</a> und die <a href="#" style="color:#fff;">Datenschutzerklärung</a>.</span>
+								<span>Ich akzeptiere die <a href="#" style="color:#fff;">AGB</a> und die <a href="#" style="color:#fff;">Datenschutzerkl�rung</a>.</span>
 							</label>
 							<button class="btn-place-order" onclick="submitOrder(event)">Bestellung aufgeben</button>
 							<div class="secure-badge">
 								<i class="zmdi zmdi-lock"></i>
-								<span>SSL-gesicherte Übertragung · 256-Bit Verschlüsselung</span>
+								<span>SSL-gesicherte �bertragung � 256-Bit Verschl�sselung</span>
 							</div>
 						</div>
 					</div>
@@ -759,11 +759,11 @@
 		</div><!-- /container -->
 	</div>
 
-	<!-- ═══════════ SUCCESS OVERLAY ═══════════ -->
+	<!-- ----------- SUCCESS OVERLAY ----------- -->
 	<div id="order-success-overlay">
-		<div class="success-checkmark">✓</div>
+		<div class="success-checkmark">?</div>
 		<div class="success-title">Bestellung aufgegeben!</div>
-		<div class="success-subtitle">Vielen Dank für deine Bestellung. Du erhältst in Kürze eine Bestätigungs-E-Mail mit allen Details.</div>
+		<div class="success-subtitle">Vielen Dank f�r deine Bestellung. Du erh�ltst in K�rze eine Best�tigungs-E-Mail mit allen Details.</div>
 		<div class="success-order-nr">Bestellnummer: <span id="success-order-number">#WCS-000000</span></div>
 		<a href="index.html" class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer"
 			style="text-decoration:none;background:#fff;color:#000;font-family:Poppins-Bold;text-transform:uppercase;letter-spacing:2px;padding:14px 40px;font-size:13px;">
@@ -792,7 +792,7 @@
 			<!-- Footer Bottom Bar -->
 			<div class="footer-bottom-minimal" style="border-top: 1px solid #222; padding-top: 30px;">
 				<div class="footer-left-minimal">
-					© FUSSI
+					� FUSSI
 				</div>
 
 				<div class="footer-links-minimal">
@@ -800,14 +800,14 @@
 					<a href="versand.html">Versandkonditionen</a>
 					<a href="agb.html">AGB</a>
 					<a href="impressum.html">Impressum</a>
-					<a href="datenschutz.html">Datenschutzerklärung</a>
+					<a href="datenschutz.html">Datenschutzerkl�rung</a>
 					<a href="cookie-einstellungen.html">Cookie-Einstellungen</a>
 					<a href="jobs.html">Jobs</a>
 				</div>
 
 				<div class="footer-right-minimal">
 					<span><i class="zmdi zmdi-globe-alt"></i> Deutsch</span>
-					<span>€ Eur</span>
+					<span>� Eur</span>
 				</div>
 			</div>
 		</div>
@@ -818,7 +818,7 @@
 		<span class="symbol-btn-back-to-top"><i class="zmdi zmdi-chevron-up"></i></span>
 	</div>
 
-	<!-- ═══════════ SCRIPTS ═══════════ -->
+	<!-- ----------- SCRIPTS ----------- -->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script src="vendor/animsition/js/animsition.min.js"></script>
 	<script src="vendor/bootstrap/js/popper.js"></script>
@@ -841,20 +841,20 @@
 	<script src="js/main.js"></script>
 
 	<script>
-	/* ─── Card number formatting ─── */
+	/* --- Card number formatting --- */
 	document.getElementById('field-card-number').addEventListener('input', function () {
 		var v = this.value.replace(/\D/g, '').substring(0, 16);
 		this.value = v.replace(/(.{4})/g, '$1 ').trim();
 	});
 
-	/* ─── Expiry formatting ─── */
+	/* --- Expiry formatting --- */
 	document.getElementById('field-card-expiry').addEventListener('input', function () {
 		var v = this.value.replace(/\D/g, '').substring(0, 4);
 		if (v.length >= 3) v = v.substring(0, 2) + ' / ' + v.substring(2);
 		this.value = v;
 	});
 
-	/* ─── Payment method selection ─── */
+	/* --- Payment method selection --- */
 	var _currentPaymentMethod = 'card'; /* default */
 	function selectPayment(method) {
 		_currentPaymentMethod = method;
@@ -865,7 +865,7 @@
 		document.getElementById('bank-panel').classList.toggle('visible', method === 'bank');
 	}
 
-	/* ─── Load cart into order summary ─── */
+	/* --- Load cart into order summary --- */
 	document.addEventListener('DOMContentLoaded', function () {
 		var cartData = JSON.parse(localStorage.getItem('wcs_cart') || '[]');
 		var listEl = document.getElementById('checkout-items-list');
@@ -889,26 +889,26 @@
 				'<span class="order-item-qty-badge">' + item.qty + '</span>' +
 				'</div>' +
 				'<div class="order-item-name">' + p.name + '</div>' +
-				'<div class="order-item-price">€' + lineTotal.toFixed(2) + '</div>' +
+				'<div class="order-item-price">�' + lineTotal.toFixed(2) + '</div>' +
 				'</div>';
 		});
 		listEl.innerHTML = html;
 
-		subtotalEl.textContent = '€' + subtotal.toFixed(2);
-		totalEl.textContent = '€' + subtotal.toFixed(2);
+		subtotalEl.textContent = '�' + subtotal.toFixed(2);
+		totalEl.textContent = '�' + subtotal.toFixed(2);
 
 		/* Bundle discount */
 		if (typeof window.BundleEngine !== 'undefined') {
 			var result = window.BundleEngine.calculateTotal(cartData);
 			if (result && result.discount > 0) {
-				document.getElementById('checkout-discount').textContent = '-€' + result.discount.toFixed(2);
+				document.getElementById('checkout-discount').textContent = '-�' + result.discount.toFixed(2);
 				document.getElementById('checkout-discount-row').style.display = 'flex';
-				totalEl.textContent = '€' + result.total.toFixed(2);
+				totalEl.textContent = '�' + result.total.toFixed(2);
 			}
 		}
 	});
 
-	/* ─── Form validation & order submission ─── */
+	/* --- Form validation & order submission --- */
 	function validateField(id, validatorFn) {
 		var el = document.getElementById(id);
 		var ok = validatorFn(el.value.trim());
@@ -941,7 +941,7 @@
 		/* Terms checkbox */
 		var termsCheck = document.getElementById('terms-check') || document.getElementById('terms-check-mobile');
 		if (!termsCheck.checked) {
-			alert('Bitte akzeptiere die AGB und Datenschutzerklärung.');
+			alert('Bitte akzeptiere die AGB und Datenschutzerkl�rung.');
 			return;
 		}
 
@@ -1003,7 +1003,7 @@
 			return;
 		}
 
-		/* All good — show success for non-card methods (bank/mobile fallback) */
+		/* All good � show success for non-card methods (bank/mobile fallback) */
 		var orderNumber = '#WCS-' + Math.floor(100000 + Math.random() * 900000);
 		document.getElementById('success-order-number').textContent = orderNumber;
 		document.getElementById('bank-reference').textContent = orderNumber;
@@ -1232,4 +1232,6 @@
 	</script>
 </body>
 </html>
+
+
 

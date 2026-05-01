@@ -3,6 +3,7 @@ let cart = JSON.parse(localStorage.getItem('wcs_cart') || '[]');
 
 function saveCart() {
     localStorage.setItem('wcs_cart', JSON.stringify(cart));
+    window.dispatchEvent(new CustomEvent('cartUpdated', { detail: cart }));
 }
 
 function addToCart(product, qty = 1) {
@@ -107,11 +108,25 @@ function updateCartUI() {
     countEls.forEach(el => { el.textContent = totalItems; });
 }
 
-// Ensure global scope
+function updateQuantity(productId, qty) {
+    const item = cart.find(item => item.product.id === productId);
+    if (item) {
+        item.qty = Math.max(0, qty);
+        if (item.qty === 0) {
+            removeFromCart(productId);
+        } else {
+            saveCart();
+            updateCartUI();
+        }
+    }
+}
+
+// Ensure global scope for legacy non-module scripts
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
 window.getCart = getCart;
 window.updateCartUI = updateCartUI;
+window.updateQuantity = updateQuantity;
 
 document.addEventListener('DOMContentLoaded', () => {
     updateCartUI();
