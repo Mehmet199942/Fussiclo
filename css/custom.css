@@ -269,8 +269,8 @@ body.dark-mode::-webkit-scrollbar-thumb {
     top: 50% !important;
     transform: translate(-50%, -50%) !important;
     z-index: 1001 !important;
-    width: 120px !important;
-    height: 120px !important;
+    width: auto !important;
+    height: 40px !important;
     margin: 0 !important;
     padding: 0 !important;
     display: flex !important;
@@ -296,8 +296,8 @@ body.dark-mode::-webkit-scrollbar-thumb {
     top: auto !important;
     transform: none !important;
     z-index: auto !important;
-    width: 120px !important;
-    height: 120px !important;
+    width: auto !important;
+    height: 50px !important;
     margin: 0 30px 0 0 !important;
     padding: 0 !important;
     display: flex !important;
@@ -307,16 +307,13 @@ body.dark-mode::-webkit-scrollbar-thumb {
 }
 
 .limiter-menu-desktop .logo img {
-    width: 120px !important;
-    height: 120px !important;
-    min-width: 120px !important;
+    height: 100% !important;
+    width: auto !important;
     max-width: none !important;
     max-height: none !important;
     display: block !important;
     margin: 0 !important;
     padding: 0 !important;
-    filter: invert(1);
-    mix-blend-mode: screen;
     background-color: transparent !important;
 }
 
@@ -369,10 +366,8 @@ body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover 
 
     /* Logo invert for dark theme if needed */
     .logo-mobile img {
-        filter: invert(1);
-        /* Better than brightness(0) invert(1) if source is black on white */
-        mix-blend-mode: screen;
-        /* Hides the black background of the inverted logo */
+        height: 40px !important;
+        width: auto !important;
         background-color: transparent !important;
         border: none !important;
         box-shadow: none !important;
@@ -638,7 +633,7 @@ body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover 
     color: #000000 !important;
     text-decoration: none !important;
 }
-body.dark-mode .logo-center img { filter: invert(1); mix-blend-mode: screen; background-color: transparent !important; }
+body.dark-mode .logo-center img { background-color: transparent !important; height: 50px; width: auto; }
 
 /* Cart quantity input: black background, white text */
 body.dark-mode .num-product {
