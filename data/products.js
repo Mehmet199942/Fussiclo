@@ -1,4 +1,4 @@
-const nations = [
+var nations = [
     // --- Pinned Favorites ---
     { id: "de", name: "Deutschland", code: "DE" },
     { id: "br", name: "Brasilien", code: "BR" },
@@ -39,7 +39,7 @@ const nations = [
     { id: "gb-wls", name: "Wales", code: "GB-WLS" }
 ];
 
-const nationColors = {
+var nationColors = {
     "ec": "FFDD00", "nl": "F36C21", "qa": "8A1538", "sn": "00853F",
     "gb-eng": "FFFFFF", "ir": "239F40", "us": "002868", "gb-wls": "AE2630",
     "ar": "75AADB", "mx": "006847", "pl": "DC143C", "sa": "006C35",
@@ -51,19 +51,19 @@ const nationColors = {
     "tr": "E30A17", "it": "0066B2", "krd": "2E8C4A"
 };
 
-const nationTextColors = {
+var nationTextColors = {
     "de": "000000", "gb-eng": "CE1124", "gh": "000000",
     "tr": "FFFFFF", "it": "FFFFFF", "krd": "FFFFFF"
 };
 
-const productTypes = {
+var productTypes = {
     SHIRT: "shirt",
     BALACLAVA: "balaclava",
     FLAG: "flag",
     HOODIE: "hoodie"
 };
 
-const products = [];
+var products = [];
 
 // --- AUTO GENERATED FROM CSV START ---
 const csvProducts = [

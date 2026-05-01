@@ -129,4 +129,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     window.addEventListener('cartUpdated', updateUI);
+    
+    // Expose functions globally for legacy scripts
+    window.addToCart = addToCart;
+    window.removeFromCart = removeFromCart;
+    window.getCart = getCart;
+    window.updateQuantity = updateQuantity;
+    window.updateUI = updateUI;
 });
