@@ -1,8 +1,5 @@
-// public/js/checkout.js - Handles redirection to Stripe Checkout
-import { getCart } from './cart.js';
-
-export const initiateCheckout = async (email = '') => {
-    const cart = getCart();
+const initiateCheckout = async (email = '') => {
+    const cart = typeof getCart === 'function' ? getCart() : (window.getCart ? window.getCart() : []);
     
     if (cart.length === 0) {
         alert('Dein Warenkorb ist leer.');
@@ -43,3 +40,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+window.initiateCheckout = initiateCheckout;

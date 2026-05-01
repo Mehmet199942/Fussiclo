@@ -114,14 +114,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const checkoutLink = e.target.closest('a[href="checkout.html"]') || e.target.closest('.js-btn-checkout');
         if (checkoutLink) {
             e.preventDefault();
-            // Dynamically import checkout logic and trigger redirect
-            import('./checkout.js').then(m => {
-                m.initiateCheckout();
-            }).catch(err => {
-                console.error('Failed to load checkout script:', err);
-                // Fallback to direct location change if import fails
+            if (typeof window.initiateCheckout === 'function') {
+                window.initiateCheckout();
+            } else {
+                console.warn('initiateCheckout not found, falling back to page redirect');
                 window.location.href = 'shoping-cart.html';
-            });
+            }
         }
     });
     
