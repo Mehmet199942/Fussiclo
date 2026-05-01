@@ -66,7 +66,7 @@ var productTypes = {
 var products = [];
 
 // --- AUTO GENERATED FROM CSV START ---
-const csvProducts = [
+var csvProducts = [
     {
         "id": "33",
         "name": "33",
