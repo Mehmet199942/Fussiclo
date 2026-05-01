@@ -270,7 +270,7 @@ body.dark-mode::-webkit-scrollbar-thumb {
     transform: translate(-50%, -50%) !important;
     z-index: 1001 !important;
     width: auto !important;
-    height: 40px !important;
+    height: 25px !important;
     margin: 0 !important;
     padding: 0 !important;
     display: flex !important;
@@ -279,11 +279,8 @@ body.dark-mode::-webkit-scrollbar-thumb {
 }
 
 .logo-mobile img {
-    width: 120px !important;
-    height: 120px !important;
-    min-width: 120px !important;
-    max-width: none !important;
-    max-height: none !important;
+    height: 25px !important;
+    width: auto !important;
     display: block !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -297,7 +294,7 @@ body.dark-mode::-webkit-scrollbar-thumb {
     transform: none !important;
     z-index: auto !important;
     width: auto !important;
-    height: 50px !important;
+    height: 35px !important;
     margin: 0 30px 0 0 !important;
     padding: 0 !important;
     display: flex !important;
@@ -366,7 +363,7 @@ body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover 
 
     /* Logo invert for dark theme if needed */
     .logo-mobile img {
-        height: 40px !important;
+        height: 25px !important;
         width: auto !important;
         background-color: transparent !important;
         border: none !important;
@@ -633,7 +630,7 @@ body.dark-mode .flex-c-m.stext-101.cl0.bg3.bor2.hov-btn3.p-lr-15.trans-04:hover 
     color: #000000 !important;
     text-decoration: none !important;
 }
-body.dark-mode .logo-center img { background-color: transparent !important; height: 50px; width: auto; }
+body.dark-mode .logo-center img { background-color: transparent !important; height: 35px; width: auto; }
 
 /* Cart quantity input: black background, white text */
 body.dark-mode .num-product {
