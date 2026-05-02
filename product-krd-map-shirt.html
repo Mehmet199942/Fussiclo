@@ -54,14 +54,28 @@
 			.product-badge-new { right: 10px !important; left: auto !important; }
 		}
 	
-		/* Centering Fix */
+		
+		
+
+		
+
+		
+
+		
+
+		
+		
+
+		
+
+		
+
+		/* Centering Fix - No Thumbnails */
 		.wrap-slick3-pd {
 			position: relative;
-			display: flex !important;
-			flex-direction: row !important;
-			align-items: flex-start !important;
-			justify-content: center !important;
+			display: block !important;
 			background-color: #000 !important;
+			text-align: center !important;
 		}
 
 		.wrap-slick3-arrows-pd {
@@ -70,7 +84,8 @@
 			width: 100% !important;
 			left: 0 !important;
 			right: auto !important;
-			top: calc(50% - 25px) !important;
+			top: 50% !important;
+			transform: translateY(-50%) !important;
 		}
 
 		.arrow-slick3 {
@@ -80,7 +95,7 @@
 			display: flex !important;
 			align-items: center !important;
 			justify-content: center !important;
-			background-color: rgba(0,0,0,0.4) !important;
+			background-color: rgba(0,0,0,0.5) !important;
 			color: #fff !important;
 			border-radius: 50% !important;
 			transition: all 0.3s !important;
@@ -90,18 +105,19 @@
 			background-color: rgba(255,255,255,0.2) !important;
 		}
 
-		.prev-slick3 { left: 30px !important; }
-		.next-slick3 { right: 30px !important; }
+		.prev-slick3 { left: 20px !important; }
+		.next-slick3 { right: 20px !important; }
 
 		.wrap-slick3-dots-pd {
-			width: 100px !important;
-			flex-shrink: 0 !important;
-			margin-right: 30px !important;
+			display: none !important; /* Hide thumbnails */
 		}
 
 		.slick3-pd {
-			flex-grow: 1 !important;
-			max-width: 700px !important;
+			width: 100% !important;
+			max-width: 800px !important; /* Allow it to be larger and centered */
+			margin: 0 auto !important;
+			display: inline-block !important;
+			text-align: left !important;
 		}
 </style>
 </head>
