@@ -648,6 +648,7 @@
 					</div>
 				</div>
 
+				
 				<div class="col-md-5 col-lg-4 p-b-30 col-info-panel">
 					<div class="product-info-panel-inner">
 						<div class="product-label-top">New</div>
@@ -661,9 +662,10 @@
 						</div>
 
 						<div class="detail-color-section">
-							<div class="detail-color-label">Multi</div>
+							<div class="detail-color-label">Color</div>
 							<div class="variant-grid">
 								<!-- variants -->
+								<div class="variant-thumb active" style="background-color: #333;"></div>
 							</div>
 						</div>
 
@@ -677,7 +679,7 @@
 								<div class="size-item" data-size="XXL">XXL</div>
 							</div>
 							<div class="detail-model-info">
-								Model height: 178cm Size: S
+								Model height: 185cm Size: L
 							</div>
 							<a href="#" class="js-show-size-guide">SIZE GUIDE</a>
 						</div>
@@ -685,14 +687,77 @@
 						<button id="detail-add-to-cart" class="btn-add-to-bag">IN DEN WARENKORB LEGEN</button>
 
 						<div class="detail-loyalty-note">
-							Werde Teil des <a href="#">Loyalty Programms</a> und verdiene <strong>1599 Punkte</strong> mit diesem Kauf!
+							Werde Teil des <a href="#">Loyalty Programms</a> und verdiene <strong>588 Punkte</strong> mit diesem Kauf!
 						</div>
 
 						<div class="details-accordion">
 							<div class="accordion-item active">
 								<div class="accordion-header">PRODUCT DETAILS</div>
 								<div class="accordion-content">
-									<p>Premium material with clean streetwear cut.</p>
+									<p>Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat
+								ornare feugiat.</p>
+									<p>SKU: ${skuPart.toUpperCase()}-${Math.floor(Math.random() * 90000) + 10000}`;
+            }
+
+			const categoryEl = document.getElementById('detail-product-category');
+			const typeName = product.type === 'shirt' ? 'Trikot' :
+				(product.type === 'balaclava' ? 'Sturmmaske' : 'Fahne');
+			if (categoryEl) {
+                const nInfo = (typeof nations !== 'undefined') ? nations.find(n => n.id === product.nation) : null;
+                categoryEl.textContent = `Kategorien: ${typeName}, ${nInfo ? nInfo.name : product.nation}`;
+            }
+
+            // Update points
+            const pointsEl = document.getElementById('detail-points');
+            if (pointsEl) pointsEl.textContent = `${Math.floor(product.price * 10)} Punkte`;
+
+			// ---- Update Slick Slider Images (Hardened) ----
+			const $slickInst = $('.slick3-pd');
+			const img1 = product.image;
+			const img2 = product.image2 || product.image;
+			const img3 = product.image3 || img2 || product.image;
+
+			function applyImages() {
+                console.log("Fussi Detail: applyImages() called");
+                const $slickInst = $('.slick3-pd');
+				if ($slickInst.length === 0) {
+                    console.error("Fussi Detail: .slick3-pd not found!");
+                    return;
+                }
+
+                if (typeof $.fn.slick !== 'function') {
+                    console.error("Fussi Detail: Slick is NOT a function in jQuery!");
+                    return;
+                }
+
+				if ($slickInst.hasClass('slick-initialized')) {
+                    console.log("Fussi Detail: Unslicking...");
+					$slickInst.slick('unslick');
+				}
+
+				const $mainItems = $('.item-slick3-pd');
+                console.log("Fussi Detail: Updating items:", $mainItems.length);
+                
+                // Absolute bulletproof image replacement
+                $mainItems.each(function(index) {
+                    const img = (index % 3 === 0) ? img1 : (index % 3 === 1 ? img2 : img3);
+                    $(this).attr('data-thumb', img);
+                    $(this).find('img').each(function() {
+                        $(this).attr('src', img).attr('data-lazy', img);
+                    });
+                    $(this).find('a').attr('href', img);
+                });
+
+                // Also target any specific placeholders directly as a failsafe
+                $('img[src*="product-detail-01.jpg"]').attr('src', img1);
+                $('img[src*="product-detail-02.jpg"]').attr('src', img2);
+                $('img[src*="product-detail-03.jpg"]').attr('src', img3);
+
+				console.log("Fussi Detail: Re-initializing Slick...");
+				$slickInst.slick({
+					slidesToShow: 1, slidesToScroll: 1, fade: true, infinite: true, autoplay: false, arrows: true,
+					appendArrows: $('.wrap-slick3-arrows-pd'),
+					prevArrow: '</p>
 								</div>
 							</div>
 							<div class="accordion-item">
@@ -704,9 +769,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
+    </div></div></section>
 <!-- You Might Also Like -->
 	<section class="sec-relate-product bg0 p-t-45 p-b-105">
 		<div class="container">
