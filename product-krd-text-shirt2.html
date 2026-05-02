@@ -71,7 +71,23 @@
 
 		
 
-		/* Centering Fix - No Thumbnails */
+		
+		
+
+		
+
+		
+
+		
+
+		
+		
+
+		
+
+		
+
+		/* Centering Fix - No Thumbnails, No Arrows */
 		.wrap-slick3-pd {
 			position: relative;
 			display: block !important;
@@ -80,34 +96,8 @@
 		}
 
 		.wrap-slick3-arrows-pd {
-			position: absolute !important;
-			z-index: 100;
-			width: 100% !important;
-			left: 0 !important;
-			right: auto !important;
-			top: 50% !important;
-			transform: translateY(-50%) !important;
+			display: none !important; /* Hide arrows */
 		}
-
-		.arrow-slick3 {
-			font-size: 24px !important;
-			width: 50px !important;
-			height: 50px !important;
-			display: flex !important;
-			align-items: center !important;
-			justify-content: center !important;
-			background-color: rgba(0,0,0,0.5) !important;
-			color: #fff !important;
-			border-radius: 50% !important;
-			transition: all 0.3s !important;
-		}
-
-		.arrow-slick3:hover {
-			background-color: rgba(255,255,255,0.2) !important;
-		}
-
-		.prev-slick3 { left: 20px !important; }
-		.next-slick3 { right: 20px !important; }
 
 		.wrap-slick3-dots-pd {
 			display: none !important; /* Hide thumbnails */
@@ -115,7 +105,7 @@
 
 		.slick3-pd {
 			width: 100% !important;
-			max-width: 800px !important; /* Allow it to be larger and centered */
+			max-width: 800px !important; 
 			margin: 0 auto !important;
 			display: inline-block !important;
 			text-align: left !important;
