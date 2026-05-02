@@ -39,13 +39,13 @@
 	<link rel="stylesheet" type="text/css" href="css/custom.css?v=3">
 	<style>
 		.header-v4 .wrap-menu-desktop, .header-v4 .top-bar { background-color: #000000 !important; }
-		.wrap-slick3-pd { position: relative; }
-		.wrap-slick3-arrows-pd { position: absolute; z-index: 100; width: 83.333333%; right: 0; top: calc(50% - 20px); }
-		.arrow-slick3 { font-size: 20px; line-height: 1; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background-color: transparent; border: none; cursor: pointer; transition: all 0.4s; color: #333; }
-		.arrow-slick3:hover { color: #717fe0; }
-		.prev-slick3 { left: 0; } .next-slick3 { right: 0; }
-		.wrap-slick3-dots-pd { width: 16.666667%; height: auto; }
-		.slick3-pd { width: 83.333333%; }
+		
+		
+		
+		
+		 
+		
+		
 		.slick3-pd.slick-initialized { display: block; }
 		.slick3-pd img { display: block; max-width: 100%; }
 		.slick3-dots { padding: 0; list-style: none; }
@@ -54,7 +54,57 @@
 		.slick3-dot-overlay { position: absolute; inset: 0; background: rgba(255,255,255,0.5); transition: all 0.4s; }
 		.slick3-dot-overlay:hover { background: rgba(255,255,255,0); }
 		.slick3-dots .slick-active .slick3-dot-overlay { background: rgba(255,255,255,0); }
-	</style>
+	
+		/* Centering Fix */
+		.wrap-slick3-pd {
+			position: relative;
+			display: flex !important;
+			flex-direction: row !important;
+			align-items: flex-start !important;
+			justify-content: center !important;
+			background-color: #000 !important;
+		}
+
+		.wrap-slick3-arrows-pd {
+			position: absolute !important;
+			z-index: 100;
+			width: 100% !important;
+			left: 0 !important;
+			right: auto !important;
+			top: calc(50% - 25px) !important;
+		}
+
+		.arrow-slick3 {
+			font-size: 24px !important;
+			width: 50px !important;
+			height: 50px !important;
+			display: flex !important;
+			align-items: center !important;
+			justify-content: center !important;
+			background-color: rgba(0,0,0,0.4) !important;
+			color: #fff !important;
+			border-radius: 50% !important;
+			transition: all 0.3s !important;
+		}
+
+		.arrow-slick3:hover {
+			background-color: rgba(255,255,255,0.2) !important;
+		}
+
+		.prev-slick3 { left: 30px !important; }
+		.next-slick3 { right: 30px !important; }
+
+		.wrap-slick3-dots-pd {
+			width: 100px !important;
+			flex-shrink: 0 !important;
+			margin-right: 30px !important;
+		}
+
+		.slick3-pd {
+			flex-grow: 1 !important;
+			max-width: 700px !important;
+		}
+</style>
 </head>
 <body class="animsition dark-mode dark-product-detail">
 <!-- Footer -->
