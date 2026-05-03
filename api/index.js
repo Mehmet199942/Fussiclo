@@ -101,7 +101,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
         });
 
         const session = await stripe.checkout.sessions.create({
-            payment_method_types: ['card', 'klarna', 'sepa_debit', 'paypal'], // Add sepa/klarna
+            payment_method_types: ['card', 'klarna', 'paypal'], // Add klarna/paypal if enabled in dashboard
             line_items: line_items,
             mode: 'payment',
             customer_email: email || undefined,
