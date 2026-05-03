@@ -344,7 +344,7 @@
                     <input type="file" id="p-image-file" hidden accept="image/*">
                 </div>
                 <input type="text" id="p-image-url" placeholder="images/Pfad/Bild.png" readonly>
-                <img id="imgPreview" class="preview-img">
+                <img id="imgPreview" class="preview-img" loading="lazy" decoding="async">
             </div>
 
             <div class="form-group">
@@ -371,7 +371,7 @@
 
     <!-- Image Hover Preview Element -->
     <div id="hoverPreview" class="hover-preview">
-        <img id="hoverImg" src="" alt="Preview">
+        <img id="hoverImg" src="" alt="Preview" loading="lazy" decoding="async">
     </div>
 
     <div id="bulkModal">
@@ -712,7 +712,7 @@
                                 onmouseenter="showPreview('../${p.image}', event)" 
                                 onmouseleave="hidePreview()" 
                                 onmousemove="movePreview(event)"
-                                onerror="this.src='https://placehold.co/100x100?text=No+Img'">
+                                onerror="this.src='https://placehold.co/100x100?text=No+Img'" loading="lazy" decoding="async">
                         </a>
                     </td>
                     <td><strong>${p.name}</strong><br><small style="color:#888">${p.id}</small></td>
@@ -720,7 +720,7 @@
                     <td><span style="font-weight:700; color:var(--accent)">${p.priority || 0}</span></td>
                     <td style="font-size:0.75rem; color:#666">${stockDisplay}</td>
                     <td>${pTypeDisplay}</td>
-                    <td><img src="https://flagcdn.com/24x18/${p.nation==='krd'?'tr':p.nation}.png" style="width:20px; border-radius:3px; margin-right:5px"> ${p.nation.toUpperCase()}</td>
+                    <td><img src="https://flagcdn.com/24x18/${p.nation==='krd'?'tr':p.nation}.png" style="width:20px; border-radius:3px; margin-right:5px" loading="lazy" decoding="async"> ${p.nation.toUpperCase()}</td>
                     <td>${statusBadge}</td>
                     <td style="font-size:0.7rem; color:#888; max-width:100px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;" title="${p.related_products || ''}">${p.related_products || '-'}</td>
                     <td>
@@ -984,7 +984,7 @@
                         <img src="../${file.imagePath}" class="thumb"
                             onmouseenter="showPreview('../${file.imagePath}', event)" 
                             onmouseleave="hidePreview()" 
-                            onmousemove="movePreview(event)">
+                            onmousemove="movePreview(event)" loading="lazy" decoding="async">
                     </a>
                     <input type="hidden" class="b-image-path" value="${file.imagePath}">
                     <div>

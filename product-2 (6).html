@@ -157,7 +157,7 @@
             </div>
             <div class="wrap-menu-desktop how-shadow1">
                 <nav class="limiter-menu-desktop container"><a href="index.html" class="logo"><img
-                            src="images/icons/logo-custom.png2.png" alt="WORLD CUP SHOP"></a>
+                            src="images/icons/logo-custom.png2.png" alt="WORLD CUP SHOP" loading="lazy" decoding="async"></a>
                     <div class="menu-desktop">
                         <ul class="main-menu js-desktop-nations"></ul>
                     </div>
@@ -225,7 +225,7 @@
                 <div class="icon-header-item cl0 hov-cl1 trans-04 js-show-modal-search"
                     style="color:white;font-size:20px;padding:0;"><i class="zmdi zmdi-search"></i></div>
             </div>
-            <div class="logo-mobile"><a href="index.html"><img loading="lazy" src="images/icons/logo-custom.png2.png" alt="WORLD CUP SHOP"></a>
+            <div class="logo-mobile"><a href="index.html"><img loading="lazy" src="images/icons/logo-custom.png2.png" alt="WORLD CUP SHOP" decoding="async"></a>
             </div>
             <div class="header-mobile-right"
                 style="display:flex;justify-content:flex-end;align-items:center;z-index:1005;">
@@ -397,7 +397,7 @@
 							var li = document.createElement('li');
 							var flagHtml = n.id === 'krd'
 								? '<span style="font-size:18px; margin-right: 15px;">??????</span>'
-								: '<img src="https://flagcdn.com/24x18/' + (n.flagCode || n.code).toLowerCase() + '.png" onerror="this.style.display=\'none\'" alt="' + n.name + '" style="width: 24px; height: 18px; object-fit: cover; margin-right: 15px; border-radius: 2px;">';
+								: '<img src="https://flagcdn.com/24x18/' + (n.flagCode || n.code).toLowerCase() + '.png" onerror="this.style.display=\'none\'" alt="' + n.name + '" style="width: 24px; height: 18px; object-fit: cover; margin-right: 15px; border-radius: 2px;" loading="lazy" decoding="async">';
 
 							li.innerHTML = flagHtml + '<span style="font-family: Poppins-Medium; color: #fff; font-size: 16px;">' + n.name + '</span>';
 
@@ -476,7 +476,7 @@
 				<ul class="header-cart-wrapitem w-full">
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img loading="lazy" src="images/item-cart-01.jpg" alt="IMG">
+							<img loading="lazy" src="images/item-cart-01.jpg" alt="IMG" decoding="async" srcset="images/webp/item-cart-01.webp 1x, images/item-cart-01.jpg 2x">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -492,7 +492,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img loading="lazy" src="images/item-cart-02.jpg" alt="IMG">
+							<img loading="lazy" src="images/item-cart-02.jpg" alt="IMG" decoding="async" srcset="images/webp/item-cart-02.webp 1x, images/item-cart-02.jpg 2x">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -508,7 +508,7 @@
 
 					<li class="header-cart-item flex-w flex-t m-b-12">
 						<div class="header-cart-item-img">
-							<img loading="lazy" src="images/item-cart-03.jpg" alt="IMG">
+							<img loading="lazy" src="images/item-cart-03.jpg" alt="IMG" decoding="async" srcset="images/webp/item-cart-03.webp 1x, images/item-cart-03.jpg 2x">
 						</div>
 
 						<div class="header-cart-item-txt p-t-8">
@@ -557,12 +557,12 @@
 							<div class="slick3-pd gallery-lb pos-relative">
 								<div class="item-slick3-pd" data-thumb="images/de/2 (6).png">
 									<div class="wrap-pic-w pos-relative">
-										<img src="images/de/2 (6).png" alt="IMG-PRODUCT">
+										<img src="images/de/2 (6).png" alt="IMG-PRODUCT" loading="lazy" decoding="async">
 									</div>
 								</div>
 								<div class="item-slick3-pd" data-thumb="images/de/2 (6).png">
 									<div class="wrap-pic-w pos-relative">
-										<img src="images/de/2 (6).png" alt="IMG-PRODUCT">
+										<img src="images/de/2 (6).png" alt="IMG-PRODUCT" loading="lazy" decoding="async">
 									</div>
 								</div>
 							</div>
@@ -717,7 +717,7 @@
 			dots: true, appendDots: $('.wrap-slick3-dots-pd'), dotsClass: 'slick3-dots',
 			customPaging: function (slick, index) {
 				var portrait = $(slick.$slides[index]).data('thumb');
-				return '<img loading="lazy" alt="" src="' + portrait + '"/><div class="slick3-dot-overlay"></div>';
+				return '<img loading="lazy" alt="" src="' + portrait + '" decoding="async"/><div class="slick3-dot-overlay"></div>';
 			}
 		});
 
