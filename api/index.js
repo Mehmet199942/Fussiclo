@@ -112,26 +112,7 @@ app.post('/api/create-checkout-session', async (req, res) => {
             },
             shipping_options: [
                 {
-                    shipping_rate_data: {
-                        type: 'fixed_amount',
-                        fixed_amount: { amount: 590, currency: 'eur' },
-                        display_name: 'DHL Standard',
-                        delivery_estimate: {
-                            minimum: { unit: 'business_day', value: 3 },
-                            maximum: { unit: 'business_day', value: 5 },
-                        },
-                    },
-                },
-                {
-                    shipping_rate_data: {
-                        type: 'fixed_amount',
-                        fixed_amount: { amount: 790, currency: 'eur' },
-                        display_name: 'UPS Express',
-                        delivery_estimate: {
-                            minimum: { unit: 'business_day', value: 1 },
-                            maximum: { unit: 'business_day', value: 2 },
-                        },
-                    },
+                    shipping_rate: 'shr_1TSuKWPR55nCEYvXsNoB48c5',
                 },
             ],
             automatic_tax: { enabled: false },

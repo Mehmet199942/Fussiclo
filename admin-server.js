@@ -187,6 +187,11 @@ app.post('/api/create-checkout-session', async (req, res) => {
             shipping_address_collection: {
                 allowed_countries: ['DE', 'AT', 'CH', 'TR', 'GB', 'US'],
             },
+            shipping_options: [
+                {
+                    shipping_rate: 'shr_1TSuKWPR55nCEYvXsNoB48c5',
+                },
+            ],
         });
 
         res.json({ url: session.url });
